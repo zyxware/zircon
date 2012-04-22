@@ -39,8 +39,41 @@ Gutter Width: 15px
 }
 
 /* The Grid Classes */
-.grid1, .grid1_2cols, .grid1_3cols, .grid1_4cols, .grid2, .grid2_3cols, .grid2_4cols, .grid3, .grid3_2cols, .grid3_4cols, .grid4, .grid4_3cols, .grid5, .grid5_2cols, .grid5_3cols, .grid5_4cols, .grid6, .grid6_4cols, .grid7, .grid7_2cols, .grid7_3cols, .grid7_4cols, .grid8, .grid8_3cols, .grid9, .grid9_2cols, .grid9_4cols, .grid10, .grid10_3cols, .grid10_4cols, .grid11, .grid11_2cols, .grid11_3cols, .grid11_4cols, .grid12
-{
+.grid1,
+.grid1_2cols,
+.grid1_3cols,
+.grid1_4cols,
+.grid2,
+.grid2_3cols,
+.grid2_4cols,
+.grid3,
+.grid3_2cols,
+.grid3_4cols,
+.grid4,
+.grid4_3cols,
+.grid5,
+.grid5_2cols,
+.grid5_3cols,
+.grid5_4cols,
+.grid6,
+.grid6_4cols,
+.grid7,
+.grid7_2cols,
+.grid7_3cols,
+.grid7_4cols,
+.grid8,
+.grid8_3cols,
+.grid9,
+.grid9_2cols,
+.grid9_4cols,
+.grid10,
+.grid10_3cols,
+.grid10_4cols,
+.grid11,
+.grid11_2cols,
+.grid11_3cols,
+.grid11_4cols,
+.grid12 {
   display: inline;
   float: left;
   margin-left: 15px;

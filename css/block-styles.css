@@ -537,13 +537,13 @@
 }
 
 /* color */
-.colors-theme {   
-  background: none repeat scroll 0 0 #e6e6e6;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+.colors-theme {
   -webkit-border-bottom-left-radius: 3px;
   -webkit-border-bottom-right-radius: 3px;
+  background: none repeat scroll 0 0 #e6e6e6;
   border: 1px solid #c6c6c6;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
   border-top: none;
   padding: 0;
   position: fixed;
@@ -557,90 +557,90 @@
   padding: 0;
 }
 .colors-theme li {
-    background: url(../images/bg-line.gif) no-repeat 0 50%;
-    display: block;
-    float: left;
-    font-size: 0.912em;
-    padding: 5px 8px;
-    position: relative;
+  background: url(../images/bg-line.gif) no-repeat 0 50%;
+  display: block;
+  float: left;
+  font-size: 0.912em;
+  padding: 5px 8px;
+  position: relative;
 }
 .colors-theme li:first-child {
-    background: none;
-    cursor: pointer;
+  background: none;
+  cursor: pointer;
 }
 .colors-theme .btn-download {
-    background: url(../images/ico-download.png) no-repeat 0 0;
-    display: block;
-    height: 17px;
-    overflow: hidden;
-    text-indent: -999em;
-    width: 17px;
+  background: url(../images/ico-download.png) no-repeat 0 0;
+  display: block;
+  height: 17px;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 17px;
 }
 .colors-theme li span {
-    display: inline-block;
-    margin-right: 3px;
+  display: inline-block;
+  margin-right: 3px;
 }
-.colors-theme li:first-child:hover .list-colors, 
+.colors-theme li:first-child:hover .list-colors,
 .colors-theme li:first-child:focus .list-colors {
-    display: block;
+  display: block;
 }
 .colors-theme .color-link {
-    background: #c01700;
-    border-radius: 3px;
-    display: inline-block;
-    height: 15px;
-    overflow: hidden;
-    text-indent: -999em;
-    vertical-align: middle;
-    width: 15px;
+  background: #c01700;
+  border-radius: 3px;
+  display: inline-block;
+  height: 15px;
+  overflow: hidden;
+  text-indent: -999em;
+  vertical-align: middle;
+  width: 15px;
 }
 .colors-theme .red-color {
-    background: #c01700;
+  background: #c01700;
 }
 .colors-theme .blue-color {
-    background: #13a6d2;
+  background: #13a6d2;
 }
 .colors-theme .pink-color {
-    background: #ff0066;
+  background: #ff0066;
 }
 .colors-theme .orange-color {
-    background: #ff6600;
+  background: #ff6600;
 }
 .list-colors {
-    background: #f6f6f6;
-    border: 1px solid #c6c6c6;
-    border-radius: 3px;
-    display: none;
-    left: -1px;
-    padding: 5px 8px;
-    position: absolute;
-    top: 27px;
-    width: 90px;
+  background: #f6f6f6;
+  border: 1px solid #c6c6c6;
+  border-radius: 3px;
+  display: none;
+  left: -1px;
+  padding: 5px 8px;
+  position: absolute;
+  top: 27px;
+  width: 90px;
 }
 .colors-theme .list-colors li {
-    background: none;
-    border-left: none;
-    border-top: 1px dotted #9b9b9b;
-    float: none;
-    font-size: 100%;
-    padding: 5px 0;
+  background: none;
+  border-left: none;
+  border-top: 1px dotted #9b9b9b;
+  float: none;
+  font-size: 100%;
+  padding: 5px 0;
 }
 .colors-theme .list-colors li:first-child {
-    border-top: none;
+  border-top: none;
 }
 .colors-theme .list-colors li span {
-    float: right;
+  float: right;
 }
 .colors-theme .list-colors li a {
-    color: #666;
-    display: block;
+  color: #666;
+  display: block;
 }
-.colors-theme .list-colors li a:hover, 
-.colors-theme .list-colors li a:focus, 
+.colors-theme .list-colors li a:hover,
+.colors-theme .list-colors li a:focus,
 .colors-theme .list-colors li a:active {
-    color: #111;
-    text-decoration: none;
+  color: #111;
+  text-decoration: none;
 }
 .logged-in .colors-theme {
-    top: 67px;
+  top: 67px;
 }

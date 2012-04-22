@@ -3,11 +3,6 @@
 */
 
 /* forms.css */
-input.form-submit,
-a.button {
-  /* padding: 1px 10px;*/
-}
-
 input.form-checkbox {
   border: 0;
   margin-right: 0;

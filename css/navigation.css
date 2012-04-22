@@ -489,7 +489,10 @@ ul.action-links li a {
   padding: 0;
 }
 
-.sf-vertical,
+.sf-vertical {
+  width: 100%;
+}
+
 .sf-vertical li {
   width: 100%;
 }

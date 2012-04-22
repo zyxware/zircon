@@ -10,6 +10,7 @@ screenshot = 'screenshot.png'
 ;****************** CSS & JS *********************
 ;*************************************************
 ; Supported stylesheet
+stylesheets[all][] = 'fonts/oswald_regular/stylesheet.css'
 stylesheets[all][] = 'css/html-elements.css'
 stylesheets[all][] = 'css/forms.css'
 stylesheets[all][] = 'css/page.css'
