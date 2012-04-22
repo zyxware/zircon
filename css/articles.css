@@ -1,0 +1,395 @@
+/* --- Articles (nodes) --- */
+.node,
+.region-content .view .views-row {
+  border-bottom: 1px dotted #dadada;
+  margin-bottom: 15px; /* Articles spacing */
+  padding-bottom: 15px;
+}
+
+.region-content .view .views-row .node,
+.node-full {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.term-listing-heading {
+  background: #FDFBE9;
+  border: 1px solid #DCD7BB;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/* Teaser */
+.node-teaser {
+}
+
+/* Article Title */
+.article > .header {
+}
+
+.node-title,
+.region-content .view .views-row .views-field-title,
+.region-content .view .views-row .views-field-name {
+  color: #333;
+  font-family: 'oswaldregular';
+  font-size: 2em;
+  font-weight: normal;
+  margin: 0 0 10px;
+}
+
+.node-title a,
+.node-title a:visited,
+.region-content .view .views-row .views-field-title a,
+.region-content .view .views-row .views-field-title a:visited,
+.region-content .view .views-row .views-field-name a,
+.region-content .view .views-row .views-field-name a:visited {
+  color: #333;
+}
+
+.node-title a:hover,
+.node-title a:active,
+.node-title a:focus,
+.region-content .view .views-row .views-field-title a:hover,
+.region-content .view .views-row .views-field-title a:active,
+.region-content .view .views-row .views-field-title a:focus,
+.region-content .view .views-row .views-field-name a:hover,
+.region-content .view .views-row .views-field-name a:active,
+.region-content .view .views-row .views-field-name a:focus {
+  color: #c01700;
+  text-decoration: none;
+}
+
+/* User Picture */
+.article .user-picture {
+  display: inline;
+  margin-right: .5em;
+}
+
+.article .user-picture img {
+}
+
+/* Meta */
+.node-author {
+}
+
+.username {
+}
+
+.block-user .item-list li a.username {
+  color: #c01700;
+}
+
+.article > .submitted {
+  color: #727272;
+  font-size: 0.912em;
+  line-height: 1;
+  padding: 0 0 1.5em;
+}
+
+.article > .submitted a {
+}
+
+.article > .submitted a:hover,
+.article > .submitted a:active,
+.article > .submitted a:focus {
+}
+
+.article > .submitted .username {
+}
+
+.article > .submitted .time {
+}
+
+/* Field Image */
+.node .field-type-image,
+.region-content .view .views-row .views-field-field-image {
+  background: #fff;  
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 15px;  
+}
+
+.node .field-type-image img,
+.region-content .view .views-row .views-field-field-image img {
+  border: 1px solid #dadada;
+  padding: 4px;
+}
+
+/* Article Lists */
+.article ul {
+}
+
+.article ul li {
+}
+
+.article ol {
+}
+
+.article ol li {
+}
+
+/* Article Links */
+.article .menu {
+  margin-top: 1.5em;
+}
+
+.article ul.links {
+  color: #999;
+  font-size: 0.912em;
+  margin: 0;
+}
+
+.article ul.links li {
+  border-right: 1px dotted #dadada;
+  margin: 0 0.455em 0 0;
+  padding: 0 0 0 0.455em;
+}
+
+.article ul.links li.last {
+  border-right: none;
+}
+
+.article ul.links li a {
+  background: #1a1a1a;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 10px;
+  vertical-align: middle;
+}
+
+.article ul.links li a:hover,
+.article ul.links li a:active,
+.article ul.links li a:focus {
+  background: #c01700;
+  color: #fff;
+  text-decoration: none;
+}
+
+.article ul.links li.node-readmore a {
+  background: url(../images/ico-readmore.gif) 0 5px no-repeat;
+  color: #999;
+  padding-left: 18px;
+}
+
+.article ul.links li.node-readmore a:hover,
+.article ul.links li.comment-add a:hover {
+  color: #333;
+}
+
+.article ul.links li.comment-add a {
+  background: url(../images/ico-comment.gif) 0 5px no-repeat;
+  color: #999;
+  padding-left: 18px;
+}
+
+.article ul.links li.comment-comments a {
+}
+
+.article ul.links li.comment-new-comments a {
+}
+
+.article ul.links li.blog_usernames_blog a {
+}
+
+.article ul.links li.print_html a {
+}
+
+.article ul.links li.print_email a {
+}
+
+.article ul.links li.print_pdf a {
+}
+
+.article ul.links li.first {
+}
+
+.article ul.links li.last {
+}
+
+.article ul.links li.comment_forbidden a {
+}
+
+.region-content .view .views-row .views-field-view-node a {
+  background: url(../images/ico-readmore.gif) 0 0 no-repeat;
+  color: #999;
+  padding-left: 18px;
+  font-size: 0.912em;
+}
+
+.region-content .view .views-row .views-field-view-node a:hover,
+.region-content .view .views-row .views-field-view-node a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Workflow states */
+.article-add {
+}
+
+.article-edit {
+}
+
+.article-delete {
+}
+
+.article-preview {
+}
+
+.article-sticky {
+}
+
+.article-promoted {
+}
+
+/* Status */
+.article-unpublished {
+}
+
+/* --- Blogs --- */
+.page-blog .article {
+}
+
+/* Teaser */
+.page-blog .node-teaser {
+}
+
+/* Blog Title */
+.node-blog > .header {
+}
+
+.node-blog .node-title {
+}
+
+.node-blog .node-title a,
+.node-blog .node-title a:visited {
+}
+
+.node-blog .node-title a:hover,
+.node-blog .node-title a:active,
+.node-blog .node-title a:focus {
+}
+
+/* Blog User Picture */
+.node-blog .user-picture {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.node-blog .user-picture img {
+}
+
+/* Blog Meta */
+.node-blog > .submitted {
+}
+
+.node-blog > .submitted a {
+}
+
+.node-blog > .submitted a:hover,
+.node-blog > .submitted a:active,
+.node-blog > .submitted a:focus {
+}
+
+.node-blog > .submitted .username {
+}
+
+.node-blog > .submitted .time {
+}
+
+/* Blog Field Image */
+.node-blog .field-type-image {
+}
+
+/* Blog Links */
+.node-blog .menu {
+}
+
+.node-blog ul.links {
+}
+
+.node-blog ul.links li {
+}
+
+.node-blog ul.links li a {
+}
+
+.node-blog ul.links li a:hover,
+.node-blog ul.links li a:active,
+.node-blog ul.links li a:focus {
+}
+
+.node-blog ul.links li.node-readmore a {
+}
+
+.node-blog ul.links li.comment-add a {
+}
+
+.node-blog ul.links li.comment-comments a {
+}
+
+.node-blog ul.links li.comment-new-comments a {
+}
+
+.node-blog ul.links li.blog_usernames_blog a {
+  margin-right: 1em;
+}
+
+.node-blog ul.links li.print_html a {
+}
+
+.node-blog ul.links li.print_email a {
+}
+
+.node-blog ul.links li.print_pdf a {
+}
+
+.node-blog ul.links li.first {
+}
+
+.node-blog ul.links li.last {
+}
+
+/* Blog Workflow states */
+.page-blog .article-add {
+}
+
+.page-blog .article-edit {
+}
+
+.page-blog .article-delete {
+}
+
+.page-blog .article-preview {
+}
+
+.page-blog .article-sticky {
+}
+
+.page-blog .article-promoted {
+}
+
+/* Status */
+.page-blog .article-unpublished {
+}
+
+/**
+* Misc.
+*/
+
+/* Skinr article title alignment */
+.ta-l .article-title {
+  text-align: left;
+}
+
+.ta-r .article-title {
+  text-align: right;
+}
+
+.ta-c .article-title {
+  text-align: center;
+}
+
+th.active img {
+  margin-left: 3px;
+}
