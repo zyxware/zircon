@@ -2,54 +2,7 @@
 * Common View Elements
 */
 
-/* --- Views Field --- */
-.views-field {
-}
-
-.field-content {
-}
-
-/* Views Field Title */
-.views-field-title {
-}
-
-.views-field-title .field-content {
-}
-
-/* Views Field Image */
-.views-field-field-image {
-}
-
-.views-field-field-image .field-content {
-}
-
-/* Views Field Body */
-.views-field-body {
-}
-
-.views-field-body .field-content {
-}
-
-/* Views Field Changed */
-.views-field-changed {
-}
-
-.views-field-changed .field-content {
-}
-
 /* --- Views Inline Grid --- */
-.views-row {
-}
-
-.views-row-odd {
-}
-
-.views-row-even {
-}
-
-.views-col {
-}
-
 .cols-1 .views-col {
   width: 100%;
 }
@@ -142,9 +95,6 @@
 * Supported Views Formats
 */
 /* --- Slideshow --- */
-#slideshow-wrapper .container {
-}
-
 #slideshow-wrapper .block-content {
   padding: 0;
 }

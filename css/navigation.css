@@ -4,9 +4,6 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-}
-
 a:hover {
   color: #c01700;
   text-decoration: underline;
@@ -65,11 +62,6 @@ a:focus {
   padding: 0;
 }
 
-ul.menu li.expanded,
-ul.menu li.collapsed,
-ul.menu li.leaf {
-}
-
 .block ul.menu li a {
   background: url(../images/ico-menu.png) 5px 11px no-repeat;
   color: #333;
@@ -79,9 +71,6 @@ ul.menu li.leaf {
 
 .block ul.menu li li a {
   background-position: 5px -57px;
-}
-
-.block ul.menu li a:visited {
 }
 
 .block ul.menu li a:hover,
@@ -100,35 +89,8 @@ ul.menu li.leaf {
 }
 
 /* Expanded Items */
-.block ul.menu li.expanded {
-}
-
-.block ul.menu li.expanded li.expanded {
-}
-
-.block ul.menu li.expanded li.expanded a {
-}
-
 .block ul.menu li.expanded ul {
   border-top: 1px dotted #dadada;
-}
-
-.block ul.menu li.expanded ul ul {
-}
-
-/* Collapsed Item */
-.block ul.menu li.collapsed {
-}
-
-.block ul.menu li li.collapsed a,
-.block ul.menu li.expanded li.collapsed a {
-}
-
-/* Leaf Items */
-.block ul.menu li.leaf a {
-}
-
-.block ul.menu li.expanded li.leaf a {
 }
 
 /* Active Items */
@@ -138,21 +100,12 @@ ul.menu li.leaf {
   color: #c01700;
 }
 
-.block ul.menu li.leaf a.active {
-}
-
 .block ul.menu li li a.active {
   background-position: 5px -92px;
   color: #c01700;
 }
 
-.block ul.menu li li li a.active {
-}
-
 /* Misc. Items */
-.block ul.menu li.first {
-}
-
 .block ul.menu li.last {
   border-bottom: 0;
 }
@@ -234,14 +187,6 @@ ul.menu li.leaf {
   padding: 0 0 0 .5em;
 }
 
-#secondary-menu ul li a {
-}
-
-#secondary-menu ul li a:hover,
-#secondary-menu ul li a:active,
-#secondary-menu ul li a:focus {
-}
-
 /* --- Footer Menu --- */
 #footer ul.menu {
   float: left;
@@ -282,9 +227,6 @@ ul.menu li.leaf {
 }
 
 /* --- Pager --- */
-div.pager {
-}
-
 ul.pager {
   clear: both;
   float: right;
@@ -325,9 +267,6 @@ ul.pager li a {
   color: #7b7b7b;
 }
 
-ul.pager li a:visited {
-}
-
 ul.pager li a:hover,
 ul.pager li a:active,
 ul.pager li a:focus {
@@ -336,37 +275,9 @@ ul.pager li a:focus {
   text-decoration: none;
 }
 
-ul.pager li a.active {
-}
-
-ul.pager li.pager-item {
-}
-
-ul.pager li.first {
-}
-
-ul.pager li.last {
-}
-
 ul.pager li.pager-current span {
   background: #c00;
   color: #fff;
-}
-
-ul.pager li.pager-first {
-}
-
-ul.pager li.pager-previous {
-}
-
-ul.pager li.pager-next {
-}
-
-ul.pager li.pager-last {
-}
-
-/* Pager List */
-ul.pager-list {
 }
 
 /* Pager Links */
@@ -401,19 +312,6 @@ ul.pager-links {
   color: #727272;
 }
 
-/* --- Links --- */
-.links a {
-}
-
-ul.links {
-}
-
-ul.links li {
-}
-
-ul.links li a {
-}
-
 /* --- Action Links --- */
 ul.action-links {
   list-style: none;
@@ -432,37 +330,15 @@ ul.action-links li a {
   padding-left: 15px;
 }
 
-/* --- More Links --- */
-.more-link {
-}
-
-.more-link a {
-}
-
 /* SUPERFISH
 ----------------------------------------------------*/
-.sf-menu {
-}
-
 .sf-menu a {
   padding: .5em 1em;
   text-decoration: none;
 }
 
-.sf-menu > li > a {
-}
-
 .sf-menu li {
   background: transparent;
-}
-
-.sf-menu li li {
-}
-
-.sf-menu li li li {
-}
-
-.sf-menu li li li li {
 }
 
 .sf-menu li:hover,
@@ -590,19 +466,6 @@ ul.secondary li a.active {
   margin-bottom: 1em;
 }
 
-/* Skip Navigation */
-#skip-link {
-}
-
-#skip-link a,
-#skip-link a:visited {
-}
-
-#skip-link a:hover,
-#skip-link a:active,
-#skip-link a:focus {
-}
-
 /* Back To Top */
 a.btn-btt {
   background: #111;
@@ -620,9 +483,6 @@ a.btn-btt:focus {
 }
 
 /* Contextual Links */
-.contextual-links-wrapper ul {
-}
-
 .contextual-links-wrapper ul li {
   background-image: none;
 }

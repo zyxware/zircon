@@ -30,23 +30,10 @@ legend {
 /**
 * Drupal Form
 */
-.form-wrapper {
-}
-
 .form-item,
 .form-action {
   margin-bottom: 10px;
   margin-top: 10px;
-}
-
-.form-item label {
-}
-
-.form-item label.option {
-}
-
-.description,
-.form-item .description {
 }
 
 .form-item .description,
@@ -54,10 +41,6 @@ fieldset .description,
 .fieldset-layout-settings dd {
   color: #7b7b7b;
   font-size: 0.92em;
-}
-
-span.form-required,
-span.marker {
 }
 
 ul.tips pre {
@@ -83,9 +66,6 @@ textarea:focus {
 
 .form-item textarea.error {
   padding: 2px;
-}
-
-.container-inline .form-item input {
 }
 
 /* --- Buttons --- */
@@ -124,9 +104,6 @@ a.button {
 }
 
 /* --- Checkbox --- */
-.form-type-checkbox label {
-}
-
 input.form-checkbox {
   border: 0;
   margin-right: 5px;
@@ -138,20 +115,12 @@ input.form-checkbox {
 }
 
 /* --- Radio --- */
-.form-type-radio label {
-}
-
 input.form-radio {
   border: 0;
 }
 
 .form-type-radio .description {
   margin-left: 0;
-}
-
-/* --- Selects --- */
-select,
-.form-select {
 }
 
 /* --- Fieldsets --- */
@@ -175,9 +144,6 @@ fieldset fieldset:last-child {
 *:first-child+html fieldset > .description,
 *:first-child+html fieldset .fieldset-wrapper .description {
   padding-top: 10px;
-}
-
-legend.fieldset-legend {
 }
 
 fieldset legend {
@@ -245,26 +211,8 @@ div.resizable-textarea textarea {
   margin: 3px 0 0 0;
 }
 
-#search-block-form > div {
-}
-
-#search-block-form .container-inline {
-}
-
-#edit-search-block-form-1-wrapper {
-}
-
 #search-block-form label {
   display: none;
-}
-
-#search-block-form input {
-}
-
-#search-block-form .form-submit {
-}
-
-#search-block-form .form-text {
 }
 
 /* Advanced search form */
@@ -295,12 +243,6 @@ fieldset#edit-advanced fieldset .fieldset-legend {
   margin: 10px 0;
 }
 
-#search-form > div {
-}
-
-#search-form .container-inline {
-}
-
 #search-form label {
   vertical-align: middle;
 }
@@ -309,25 +251,10 @@ fieldset#edit-advanced fieldset .fieldset-legend {
   vertical-align: middle;
 }
 
-#search-form .form-item {
-}
-
-#search-form .form-submit {
-}
-
 /* --- User login --- */
-#user-login-form .form-item-name {
-}
-
 #user-login-form .form-item label {
   font-weight: normal;
   margin-bottom: 3px;
-}
-
-#user-login-form .form-item-pass {
-}
-
-#user-login-form .form-action {
 }
 
 #user-login-form ul {

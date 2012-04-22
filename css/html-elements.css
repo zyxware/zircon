@@ -182,9 +182,6 @@ table.sticky-header {
 }
 
 /* Table Head */
-thead {
-}
-
 th {
   background: #333;
   border-bottom: 0;
@@ -202,13 +199,7 @@ th a:focus {
   color: #fff;
 }
 
-thead th {
-}
-
 /* Table Body */
-tbody {
-}
-
 td {
   padding: .75em 1em;
 }
@@ -224,27 +215,6 @@ tr.odd td {
   border-bottom: 1px dotted #ccc;
 }
 
-tr.odd,
-tr.info {
-}
-
 tr.even {
   background-color: transparent;
-}
-
-tr.drag {
-}
-
-tr.drag-previous {
-}
-
-tr.odd td.active {
-}
-
-tr.even td.active {
-}
-
-td.region,
-td.module,
-td.container td.category {
 }

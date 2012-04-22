@@ -32,13 +32,6 @@
   text-transform: uppercase;
 }
 
-/* "Have child" Item */
-.sf-menu.sf-style-zircon li.menuparent {
-}
-
-.sf-menu.sf-style-zircon a.menuparent {
-}
-
 /* Child Menu */
 .sf-menu.sf-style-zircon ul {
   background: #2c2f2f;

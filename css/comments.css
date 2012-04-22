@@ -40,13 +40,7 @@
   padding-left: 30px;
 }
 
-#comments .indented .comment {
-}
-
 /* Comment Title */
-.comment > .header {
-}
-
 .comment-title {
   margin: 0;
   padding: 0;
@@ -82,36 +76,11 @@
   color: #f80;
 }
 
-/* User Picture */
-.comment .user-picture {
-}
-
-.comment .user-picture img {
-}
-
-/* Comment Content */
-.comment-content {
-}
-
 /* Submitted */
 .comment > .footer {
   color: #666;
   font-size: 0.92em;
   margin: .5em 0 1em;
-}
-
-.comment > .footer .username {
-}
-
-.comment > .footer .time {
-}
-
-.comment > .footer a {
-}
-
-.comment > .footer a:hover,
-.comment > .footer a:active,
-.comment > .footer a:focus {
 }
 
 /* Links */
@@ -146,46 +115,6 @@
   text-decoration: none;
 }
 
-/* Core comment link classes. */
-ul.links li.comment_reply a {
-}
-
-ul.links li.comment_edit a {
-}
-
-ul.links li.comment_delete a {
-}
-
-.comment ul.links li.first {
-}
-
-.comment ul.links li.last {
-}
-
-/**
-* Different status for comments
-*/
-
-/* Author */
-.comment-by-anonymous {
-}
-
-.comment-by-node-author {
-}
-
-.comment-by-viewer {
-}
-
-/* New */
-.comment-new {
-}
-
-/* Unpublished */
-.comment-unpublished {
-}
-.comment-unpublished .unpublished {
-}
-
 /**
 * Comment Form
 */
@@ -195,7 +124,4 @@ ul.links li.comment_delete a {
   font-weight: normal;
   margin-top: 0;
   text-transform: uppercase;
-}
-
-.comment-form-wrapper form#comment-form {
 }

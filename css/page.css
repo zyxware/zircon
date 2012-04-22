@@ -1,47 +1,20 @@
-.wrapper {
-}
-
-.wrapper .container {
-}
-
 /* Grid Gutter */
-.grid {
-}
-
 .grid-inner {
   padding: 0 10px;
-}
-
-.grid .grid-inner {
-}
-
-.region-content .block {
-}
-
-.sidebar .block {
 }
 
 /**
 * Main Containner
 */
-#main-wrapper {
-}
-
 #main-wrapper > .container {
   background: #fff;
   border: 1px solid #d9d9d9;
   margin-bottom: 15px;
 }
 
-#main-wrapper .container-inner {
-}
-
 /**
 * Header
 */
-#header-wrapper {
-}
-
 #header-wrapper .grid-inner {
   padding: 0;
 }
@@ -77,9 +50,6 @@
 .site-name a {
   color: #333;
   text-decoration: none;
-}
-
-.site-name a:visited {
 }
 
 .site-name a:hover,
@@ -126,24 +96,11 @@
   width: 100%;
 }
 
-/* Region */
-.region-menu-bar {
-}
-
 /**
 * Main Content
 */
-#main-content {
-}
-
 #main-content > .grid-inner {
   padding: 10px;
-}
-
-#main-content .region-content {
-}
-
-#main-content .region-content #block-system-main {
 }
 
 #main-content .region-content #block-system-main .block-inner {
@@ -152,14 +109,6 @@
 
 #main-content .region-content #block-system-main .block-content {
   padding: 0;
-}
-
-/* Content on Front-page */
-body.front #main-content .region-content {
-}
-
-/* Content on other pages */
-body.not-front #main-content .region-content {
 }
 
 /* Page Title */
@@ -178,21 +127,6 @@ body.not-front #main-content .region-content {
 */
 .sidebar {
   margin: 10px 0;
-}
-
-.region-sidebar-first {
-}
-
-.region-sidebar-second {
-}
-
-/**
-* Panels
-*/
-.panel {
-}
-
-.panel .container {
 }
 
 /* --- First Panel --- */
@@ -287,9 +221,6 @@ body.not-front #main-content .region-content {
 }
 
 /* --- Third Panel --- */
-#panel-third-wrapper {
-}
-
 #panel-third-wrapper .grid-inner {
   padding: 0;
 }
@@ -343,17 +274,9 @@ body.not-front #main-content .region-content {
   color: #fff;
 }
 
-/* Region */
-.region-footer {
-}
-
 /**
 * Other Pages
 */
-
-/* --- Blogs --- */
-.page-blog {
-}
 
 /* Blog Action Links */
 .page-blog ul.action-links {
@@ -397,18 +320,6 @@ body.not-front #main-content .region-content {
   float: none;
 }
 
-.profile .field {
-}
-
-.profile .field .field-label {
-}
-
-.profile .field .field-items {
-}
-
-.profile .field .field-items .field-item {
-}
-
 /* --- Search Results --- */
 .search-results {
   margin: 0;
@@ -418,9 +329,6 @@ body.not-front #main-content .region-content {
   border-bottom: 1px dotted #dadada;
   margin-bottom: 10px;
   padding-bottom: 15px;
-}
-
-.search-results .search-result {
 }
 
 .search-results .title {
@@ -444,32 +352,10 @@ body.not-front #main-content .region-content {
   margin: 0;
 }
 
-.search-results .search-snippet {
-}
-
 .search-results .search-info {
   color: #727272;
   font-size: .923em;
   padding-top: 3px;
-}
-
-span.search-info-type {
-}
-
-span.search-info-user {
-}
-
-span.search-info-date {
-}
-
-span.search-info-comment {
-}
-
-span.search-info-upload {
-}
-
-/* --- Poll Page --- */
-.poll {
 }
 
 /* Vote Form */
@@ -497,9 +383,6 @@ span.search-info-upload {
 }
 
 /* Vote Result */
-.poll .text {
-}
-
 .poll .bar {
   background: #ddd;
 }
@@ -513,31 +396,10 @@ span.search-info-upload {
   font-size: 0.92em;
 }
 
-.poll .total {
-}
-
 /* --- Feed Aggregator ---*/
 /* Feed Items */
 #aggregator .feed-item {
   margin-bottom: 40px;
-}
-
-#aggregator .feed-item .header {
-}
-
-#aggregator .feed-item .header h2 {
-}
-
-#aggregator .feed-item .content {
-}
-
-#aggregator .feed-item .footer {
-}
-
-#aggregator .feed-item .footer .meta {
-}
-
-#aggregator .feed-item .footer .categories {
 }
 
 /* Feed Lists */
@@ -545,17 +407,8 @@ span.search-info-upload {
   margin: 1em 0;
 }
 
-#aggregator .feed .summary-title {
-}
-
 #aggregator .feed .feed-url {
   margin: .5em 0 0;
-}
-
-#aggregator .feed .item-list {
-}
-
-#aggregator .feed .item-list ul {
 }
 
 #aggregator .feed .item-list ul li {
@@ -566,9 +419,6 @@ span.search-info-upload {
 
 #aggregator .feed .source {
   margin: .5em 0 0;
-}
-
-#aggregator .feed .time {
 }
 
 #aggregator .feed .feed-name {
@@ -585,12 +435,6 @@ span.search-info-upload {
   top: -99em;
 }
 
-.maintenance-page .footer {
-}
-
-.maintenance-page .footer a {
-}
-
 /**
 * Misc.
 */
@@ -598,18 +442,6 @@ span.search-info-upload {
 /* Feed icons */
 .feed-icon img {
   padding: 0 10px;
-}
-
-#feed-icons {
-}
-
-#feed-icons .feed-icon {
-}
-
-#feed-icons .feed-icon img {
-}
-
-#feed-icons a.feed-icon {
 }
 
 #sidebar-first-wrapper {

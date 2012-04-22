@@ -12,10 +12,6 @@ input.form-submit {
   overflow: visible; /* IE Fix */
 }
 
-input.form-submit,
-a.button {
-}
-
 #comment-form .filter-wrapper {
   padding-top: 1em;
 }

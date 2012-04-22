@@ -20,14 +20,6 @@
   padding: 10px;
 }
 
-/* Teaser */
-.node-teaser {
-}
-
-/* Article Title */
-.article > .header {
-}
-
 .node-title,
 .region-content .view .views-row .views-field-title,
 .region-content .view .views-row .views-field-name {
@@ -66,16 +58,6 @@
   margin-right: .5em;
 }
 
-.article .user-picture img {
-}
-
-/* Meta */
-.node-author {
-}
-
-.username {
-}
-
 .block-user .item-list li a.username {
   color: #c01700;
 }
@@ -85,20 +67,6 @@
   font-size: 0.912em;
   line-height: 1;
   padding: 0 0 1.5em;
-}
-
-.article > .submitted a {
-}
-
-.article > .submitted a:hover,
-.article > .submitted a:active,
-.article > .submitted a:focus {
-}
-
-.article > .submitted .username {
-}
-
-.article > .submitted .time {
 }
 
 /* Field Image */
@@ -114,19 +82,6 @@
 .region-content .view .views-row .views-field-field-image img {
   border: 1px solid #dadada;
   padding: 4px;
-}
-
-/* Article Lists */
-.article ul {
-}
-
-.article ul li {
-}
-
-.article ol {
-}
-
-.article ol li {
 }
 
 /* Article Links */
@@ -183,33 +138,6 @@
   padding-left: 18px;
 }
 
-.article ul.links li.comment-comments a {
-}
-
-.article ul.links li.comment-new-comments a {
-}
-
-.article ul.links li.blog_usernames_blog a {
-}
-
-.article ul.links li.print_html a {
-}
-
-.article ul.links li.print_email a {
-}
-
-.article ul.links li.print_pdf a {
-}
-
-.article ul.links li.first {
-}
-
-.article ul.links li.last {
-}
-
-.article ul.links li.comment_forbidden a {
-}
-
 .region-content .view .views-row .views-field-view-node a {
   background: url(../images/ico-readmore.gif) 0 0 no-repeat;
   color: #999;
@@ -223,159 +151,15 @@
   text-decoration: none;
 }
 
-/* Workflow states */
-.article-add {
-}
-
-.article-edit {
-}
-
-.article-delete {
-}
-
-.article-preview {
-}
-
-.article-sticky {
-}
-
-.article-promoted {
-}
-
-/* Status */
-.article-unpublished {
-}
-
-/* --- Blogs --- */
-.page-blog .article {
-}
-
-/* Teaser */
-.page-blog .node-teaser {
-}
-
-/* Blog Title */
-.node-blog > .header {
-}
-
-.node-blog .node-title {
-}
-
-.node-blog .node-title a,
-.node-blog .node-title a:visited {
-}
-
-.node-blog .node-title a:hover,
-.node-blog .node-title a:active,
-.node-blog .node-title a:focus {
-}
-
 /* Blog User Picture */
 .node-blog .user-picture {
   display: inline-block;
   vertical-align: text-top;
 }
 
-.node-blog .user-picture img {
-}
-
-/* Blog Meta */
-.node-blog > .submitted {
-}
-
-.node-blog > .submitted a {
-}
-
-.node-blog > .submitted a:hover,
-.node-blog > .submitted a:active,
-.node-blog > .submitted a:focus {
-}
-
-.node-blog > .submitted .username {
-}
-
-.node-blog > .submitted .time {
-}
-
-/* Blog Field Image */
-.node-blog .field-type-image {
-}
-
-/* Blog Links */
-.node-blog .menu {
-}
-
-.node-blog ul.links {
-}
-
-.node-blog ul.links li {
-}
-
-.node-blog ul.links li a {
-}
-
-.node-blog ul.links li a:hover,
-.node-blog ul.links li a:active,
-.node-blog ul.links li a:focus {
-}
-
-.node-blog ul.links li.node-readmore a {
-}
-
-.node-blog ul.links li.comment-add a {
-}
-
-.node-blog ul.links li.comment-comments a {
-}
-
-.node-blog ul.links li.comment-new-comments a {
-}
-
 .node-blog ul.links li.blog_usernames_blog a {
   margin-right: 1em;
 }
-
-.node-blog ul.links li.print_html a {
-}
-
-.node-blog ul.links li.print_email a {
-}
-
-.node-blog ul.links li.print_pdf a {
-}
-
-.node-blog ul.links li.first {
-}
-
-.node-blog ul.links li.last {
-}
-
-/* Blog Workflow states */
-.page-blog .article-add {
-}
-
-.page-blog .article-edit {
-}
-
-.page-blog .article-delete {
-}
-
-.page-blog .article-preview {
-}
-
-.page-blog .article-sticky {
-}
-
-.page-blog .article-promoted {
-}
-
-/* Status */
-.page-blog .article-unpublished {
-}
-
-/**
-* Misc.
-*/
 
 /* Skinr article title alignment */
 .ta-l .article-title {
