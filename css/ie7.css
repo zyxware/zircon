@@ -5,13 +5,13 @@
 /* forms.css */
 input.form-submit,
 a.button {
- /* padding: 1px 10px;*/
+  /* padding: 1px 10px;*/
 }
 
 input.form-checkbox {
   border: 0;
-  padding: 0;
   margin-right: 0;
+  padding: 0;
 }
 
 #search-form .form-submit {
@@ -19,8 +19,8 @@ input.form-checkbox {
 }
 
 #header #search-block-form .form-submit {
+  content: '';
   text-indent: 0;
-  content:'';
 }
 
 #comment-form textarea {
@@ -39,8 +39,8 @@ input.form-checkbox {
 }
 
 .contact-form div.resizable-textarea textarea {
-  width: 97.5%;
   padding-left: 5px;
+  width: 97.5%;
 }
 
 /* form */

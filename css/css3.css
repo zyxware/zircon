@@ -22,18 +22,17 @@
 }
 
 .tb-sf-navbar #menu-bar-wrapper .grid-inner {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
   -webkit-border-right-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /* Navbar */
 .sf-menu.sf-style-zircon.sf-navbar ul ul {
-  border-radius: 0;
   -webkit-border-radius: 0;
+  border-radius: 0;
 }
-
 
 /* --- Slideshow --- */
 .view-main-slideshow .field-content img {
@@ -75,10 +74,10 @@
 .block-custom-form span.button input.form-submit {
   -webkit-border-bottom-right-radius: 5px;
   -webkit-border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
   border-bottom-left-radius: 0;
+  border-bottom-right-radius: 5px;
   border-top-left-radius: 0;
+  border-top-right-radius: 5px;
   box-shadow: 0 0 5px #333 inset;
 }
 
@@ -154,35 +153,35 @@ ul.primary li a {
 }
 
 #panel-first-wrapper > .container {
-  border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
-  box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 5px #ccc;
 }
 
 #slideshow-wrapper .container {
-  border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
-  box-shadow: 0 0 5px #888;
   -webkit-box-shadow: 0 0 5px #888;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 5px #888;
 }
 
 #slideshow-wrapper .container .views-field-field-slideshow img,
 .region-content .view .views-row .views-field-field-category-image {
-  border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .slideshow-group-fields-wrapper {
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
   -webkit-border-bottom-right-radius: 5px;
-  -webkit-border-bottom-left-radius: 5px; 
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 a.btn-btt {
-   border-radius: 5px;
   -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 /********* rounded block */
@@ -194,8 +193,8 @@ a.btn-btt {
 
 .quicktabs_main .views-row .views-field-field-image img,
 .sidebar .block-views .views-row .views-field-field-image img {
-  border-radius: 3px;
   -webkit-border-radius: 3px;
+  border-radius: 3px;
 }
 
 .term-listing-heading {

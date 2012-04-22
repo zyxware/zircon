@@ -68,9 +68,9 @@
 }
 
 .quicktabs-style-zircon .block-content .item-list ul li span {
+  color: #727272;
   display: block;
   font-size: .912em;
-  color: #727272;
 }
 
 .quicktabs-style-zircon .block-content .item-list ul li a {
@@ -124,8 +124,8 @@
 
 /* Active Accordion Header */
 .quick-accordion-zircon .ui-state-active {
-  background: #C01700;
-  border: 1px solid #C01700;
+  background: #c01700;
+  border: 1px solid #c01700;
   color: #fff;
 }
 
@@ -139,14 +139,14 @@
 
 .quick-accordion-zircon .item-list ul li {
   background: url(../../images/arrow.png) no-repeat 0 5px;
-  padding: 0 0 0 10px;
   margin: 4px 0;
+  padding: 0 0 0 10px;
 }
 
 .quick-accordion-zircon .item-list ul li span {
+  color: #727272;
   display: block;
   font-size: .912em;
-  color: #727272;
 }
 
 .sidebar .quick-accordion-zircon .block {
@@ -155,9 +155,9 @@
 
 /* Accordion Content */
 .quick-accordion-zircon .ui-accordion-content {
+  border-color: #dadada;
   border-radius: 0;
   padding: .5em;
-  border-color: #dadada;
 }
 
 /* --- UI Tabs --- */
@@ -192,7 +192,7 @@
 
 /* Hover Tabs */
 .quicktabs-ui-zircon .ui-tabs-nav li.ui-state-hover {
-  border-bottom: 0;  
+  border-bottom: 0;
 }
 
 .quicktabs-ui-zircon .ui-tabs-nav li.ui-state-hover a {
@@ -212,14 +212,14 @@
 
 .quicktabs-ui-zircon .item-list ul li {
   background: url(../../images/arrow.png) no-repeat 0 5px;
-  padding: 0 0 0 10px;
   margin: 4px 0;
+  padding: 0 0 0 10px;
 }
 
 .quicktabs-ui-zircon .item-list ul li span {
+  color: #727272;
   display: block;
   font-size: .912em;
-  color: #727272;
 }
 
 .sidebar .quicktabs-ui-zircon .block {
@@ -234,13 +234,13 @@
 /****************/
 .block-quicktabs .views-row {
   border-bottom: 1px dotted #dadada;
-  padding: 10px 0;
   overflow: hidden;
+  padding: 10px 0;
 }
 
 .block-quicktabs .views-row-last {
- border-bottom: none;
- padding-bottom: 0 !important;
+  border-bottom: none;
+  padding-bottom: 0 !important;
 }
 
 .block-quicktabs .views-row .views-field-field-image {
@@ -258,7 +258,7 @@
 }
 
 .block-quicktabs .views-row .views-field-title a:hover {
-  color: #C01700;
+  color: #c01700;
 }
 
 .sidebar .block-quicktabs .block {

@@ -9,15 +9,15 @@
 .region-content .view .views-row .node,
 .node-full {
   border-bottom: none;
-  padding-bottom: 0;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .term-listing-heading {
-  background: #FDFBE9;
-  border: 1px solid #DCD7BB;
-  padding: 10px;
+  background: #fdfbe9;
+  border: 1px solid #dcd7bb;
   margin-bottom: 15px;
+  padding: 10px;
 }
 
 /* Teaser */
@@ -104,10 +104,10 @@
 /* Field Image */
 .node .field-type-image,
 .region-content .view .views-row .views-field-field-image {
-  background: #fff;  
+  background: #fff;
   float: left;
   margin-bottom: 10px;
-  margin-right: 15px;  
+  margin-right: 15px;
 }
 
 .node .field-type-image img,
@@ -213,8 +213,8 @@
 .region-content .view .views-row .views-field-view-node a {
   background: url(../images/ico-readmore.gif) 0 0 no-repeat;
   color: #999;
-  padding-left: 18px;
   font-size: 0.912em;
+  padding-left: 18px;
 }
 
 .region-content .view .views-row .views-field-view-node a:hover,

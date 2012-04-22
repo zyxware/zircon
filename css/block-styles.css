@@ -78,8 +78,8 @@
   font-size: 1.166em;
   font-weight: normal;
   margin: 0 0 15px;
-  text-transform: uppercase;
   text-shadow: 0 1px 0 #111;
+  text-transform: uppercase;
 }
 
 .block-custom-links .block-content ul {
@@ -147,8 +147,8 @@
 .jcarousel-skin-default .jcarousel-next,
 .jcarousel-skin-default .jcarousel-prev,
 .jcarousel-skin-default .jcarousel-prev-vertical:hover {
-	display: block;
   background: url(../images/arrow-2.png) 0 0 no-repeat;
+  display: block;
   height: 5px;
   width: 10px;
 }
@@ -381,28 +381,28 @@
   border: none;
   border-bottom: 1px solid #717578;
   height: 31px;
-  padding: 0;
   margin: 0;
+  padding: 0;
   width: 100%;
 }
 
 .block-custom-form .prefix {
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
 
 .block-custom-form fieldset {
+  background: none;
   border: none;
   margin: 0;
   padding: 0;
-  background: none;
 }
 
 .block-custom-form .form-text {
   background: none;
   border: none;
   color: #c9c9c9;
-  font-style: italic;
   float: left;
+  font-style: italic;
   margin: 9px 0 0 0;
   padding: 0 0 0 10px;
   width: 150px;
@@ -421,8 +421,8 @@
 }
 
 .block-custom-form form {
-  position: relative;
   margin: 0;
+  position: relative;
 }
 
 .block-custom-form #subscribe {
@@ -431,13 +431,13 @@
   top: 0;
 }
 
-.block-custom-form span.button { 
+.block-custom-form span.button {
   margin: 0;
 }
 
-#newsletter-error { 
-  clear: both; 
-  color:#fff;
+#newsletter-error {
+  clear: both;
+  color: #fff;
   font-size: 0.912em;
   font-style: italic;
   padding: 5px 0 0 0;
@@ -448,11 +448,11 @@
 }
 
 .ajax-progress .throbber {
-    background: url(../images/ajax-loader.gif) 0 0 no-repeat;
-    float: right;
-    height: 16px;
-    margin: 10px -49px 0 0;
-    width: 16px;
+  background: url(../images/ajax-loader.gif) 0 0 no-repeat;
+  float: right;
+  height: 16px;
+  margin: 10px -49px 0 0;
+  width: 16px;
 }
 
 /* facebook */
@@ -501,18 +501,18 @@
 }
 
 .twtr-ft span a {
-  font-size: 0.912em;
   color: #fff !important;
+  font-size: 0.912em;
 }
 
 /* badge */
 .badge {
   background: url(../images/badge.png) 0 0 no-repeat;
   display: none;
+  height: 46px;
   position: absolute;
   right: 0;
   top: 0;
-  height: 46px;
   width: 46px;
 }
 
@@ -535,6 +535,3 @@
   background-position: 0 -138px;
   display: block;
 }
-
-
-

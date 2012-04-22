@@ -1,5 +1,5 @@
 /**
-  Blue Color
+Blue Color
 */
 body {
   background: url(images/bg-body.png) no-repeat 50% 0 fixed #666668;
@@ -44,8 +44,8 @@ a:hover {
 }
 
 .sf-menu.sf-style-zircon ul {
-  border-color: #e3005b;
   background: #252525;
+  border-color: #e3005b;
 }
 
 .sf-menu.sf-style-zircon.sf-navbar ul li a:hover,
@@ -130,7 +130,7 @@ a:hover {
 }
 
 .item-list ul.pager li.pager-current {
- color: #ff0066;
+  color: #ff0066;
 }
 
 .sidebar .block-title,
@@ -194,12 +194,12 @@ a:hover {
 /* Newsletter */
 .block-custom-form .form-item {
   background: #000;
-  border-color: #fff;
   border-bottom: none;
+  border-color: #fff;
 }
 
 .block-custom-form span.button input.form-submit {
-  background: #ff0066;  
+  background: #ff0066;
 }
 
 .block-custom-form .form-text {
@@ -212,24 +212,24 @@ ul.primary li a:hover {
 }
 
 /* button */
-span.button input.form-submit:hover, 
+span.button input.form-submit:hover,
 span.button input.form-submit:focus,
-.comment ul.links li a:hover, 
-.comment ul.links li a:active, 
+.comment ul.links li a:hover,
+.comment ul.links li a:active,
 .comment ul.links li a:focus {
   background: #ff0066;
 }
 
 /* comment */
-.comment-title a:hover, 
-.comment-title a:active, 
+.comment-title a:hover,
+.comment-title a:active,
 .comment-title a:focus {
   color: #ff0066;
 }
 
 .page-blog ul.action-links li a,
-.node-blog ul.links li.blog_usernames_blog a:hover, 
-.node-blog ul.links li.blog_usernames_blog a:active, 
+.node-blog ul.links li.blog_usernames_blog a:hover,
+.node-blog ul.links li.blog_usernames_blog a:active,
 .node-blog ul.links li.blog_usernames_blog a:focus,
 .page-forum ul.action-links li a {
   background: #ff0066;
@@ -241,8 +241,8 @@ span.button input.form-submit:focus,
 }
 
 /* Categories */
-.region-content .view .views-view-grid .grid-inner .views-field-name a:hover, 
-.region-content .view .views-view-grid .grid-inner .views-field-name a:focus, 
+.region-content .view .views-view-grid .grid-inner .views-field-name a:hover,
+.region-content .view .views-view-grid .grid-inner .views-field-name a:focus,
 .region-content .view .views-view-grid .grid-inner .views-field-name a:active {
   color: #ff0066;
 }
@@ -265,15 +265,15 @@ span.button input.form-submit:focus,
 }
 
 /* forum */
-#forum td.forum .name a:hover, 
-#forum td.forum .name a:active, 
+#forum td.forum .name a:hover,
+#forum td.forum .name a:active,
 #forum td.forum .name a:focus {
   color: #ff0066;
 }
 
 /* sitemap */
-#site-map a:hover, 
-#site-map a:focus, 
+#site-map a:hover,
+#site-map a:focus,
 #site-map a:active {
   color: #ff0066;
 }
@@ -283,8 +283,8 @@ span.button input.form-submit:focus,
   color: #ff0066;
 }
 
-.block-user .item-list li a:hover, 
-.block-user .item-list li a:focus, 
+.block-user .item-list li a:hover,
+.block-user .item-list li a:focus,
 .block-user .item-list li a:active {
   color: #ff0066;
 }
@@ -308,13 +308,13 @@ span.button input.form-submit:focus,
 #main-wrapper > .container,
 #panel-second-wrapper .container,
 #slideshow-wrapper .container {
-  box-shadow: 0 0 5px #333;
   -webkit-box-shadow: 0 0 5px #333;
+  box-shadow: 0 0 5px #333;
 }
 
 /* sidebar view */
-.sidebar .block-views .views-field-title .field-content a:hover, 
-.sidebar .block-views .views-field-title .field-content a:focus, 
+.sidebar .block-views .views-field-title .field-content a:hover,
+.sidebar .block-views .views-field-title .field-content a:focus,
 .sidebar .block-views .views-field-title .field-content a:active {
   color: #ff0066;
 }
@@ -356,5 +356,5 @@ a.btn-btt {
 }
 
 #menu-bar-wrapper ul.menu ul li a {
- color: #aaa;
+  color: #aaa;
 }

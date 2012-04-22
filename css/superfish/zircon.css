@@ -5,8 +5,8 @@
 }
 
 .sf-menu.sf-style-zircon ul {
-  padding-left: 0;
   border-radius: 0;
+  padding-left: 0;
 }
 
 .sf-menu.sf-style-zircon li {
@@ -121,7 +121,7 @@ ul.sf-navbar {
 }
 
 .sf-menu.sf-style-zircon.sf-navbar {
-  width: 100%;  
+  width: 100%;
 }
 
 .tb-sf-navbar #menu-bar-wrapper .grid-inner {
@@ -136,8 +136,8 @@ ul.sf-navbar {
 }
 
 .sf-menu.sf-style-zircon.sf-navbar ul > li {
-  border-top: none;
   border-right: 1px solid #ccc;
+  border-top: none;
   padding: 0 15px;
 }
 
@@ -173,13 +173,13 @@ ul.sf-navbar {
 .sf-menu.sf-style-zircon.sf-navbar ul ul {
   background: #fff;
   border: #ddd solid 1px;
-  padding: 0 25px;
   margin: -2px 0 0 0;
+  padding: 0 25px;
 }
 
 .sf-menu.sf-style-zircon.sf-navbar ul ul li {
-  padding: 0;
   border-top: 1px dotted #dadada;
+  padding: 0;
 }
 
 .sf-menu.sf-style-zircon.sf-navbar ul ul li:first-child {
@@ -187,8 +187,8 @@ ul.sf-navbar {
 }
 
 .sf-menu.sf-style-zircon.sf-navbar ul ul li a {
-  padding: 7px 0;
   color: #333 !important;
+  padding: 7px 0;
 }
 
 .sf-menu.sf-style-zircon.sf-navbar ul li.menuparent:hover > a,

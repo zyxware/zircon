@@ -1,5 +1,5 @@
 /**
-  Blue Color
+Blue Color
 */
 body {
   background: url(images/bg-body.png) 0 0 repeat #fff;
@@ -44,8 +44,8 @@ a:hover {
 }
 
 .sf-menu.sf-style-zircon ul {
-  border-color: #dc2b1e;
   background: #564640;
+  border-color: #dc2b1e;
 }
 
 .sf-menu.sf-style-zircon.sf-navbar ul li a:hover,
@@ -130,7 +130,7 @@ a:hover {
 }
 
 .item-list ul.pager li.pager-current {
- color: #ff6600;
+  color: #ff6600;
 }
 
 .sidebar .block-title,
@@ -204,7 +204,7 @@ a:hover {
 .block-custom-form span.button input.form-submit,
 .block-custom-form span.button input.form-submit:hover,
 .block-custom-form span.button input.form-submit:focus {
-  background: #000;  
+  background: #000;
 }
 
 /* tab admin */
@@ -213,10 +213,10 @@ ul.primary li a:hover {
 }
 
 /* button */
-span.button input.form-submit:hover, 
+span.button input.form-submit:hover,
 span.button input.form-submit:focus,
-.comment ul.links li a:hover, 
-.comment ul.links li a:active, 
+.comment ul.links li a:hover,
+.comment ul.links li a:active,
 .comment ul.links li a:focus {
   background: #ff6600;
 }
@@ -226,15 +226,15 @@ a.btn-btt {
 }
 
 /* comment */
-.comment-title a:hover, 
-.comment-title a:active, 
+.comment-title a:hover,
+.comment-title a:active,
 .comment-title a:focus {
   color: #ff6600;
 }
 
 .page-blog ul.action-links li a,
-.node-blog ul.links li.blog_usernames_blog a:hover, 
-.node-blog ul.links li.blog_usernames_blog a:active, 
+.node-blog ul.links li.blog_usernames_blog a:hover,
+.node-blog ul.links li.blog_usernames_blog a:active,
 .node-blog ul.links li.blog_usernames_blog a:focus,
 .page-forum ul.action-links li a {
   background: #ff6600;
@@ -246,8 +246,8 @@ a.btn-btt {
 }
 
 /* Categories */
-.region-content .view .views-view-grid .grid-inner .views-field-name a:hover, 
-.region-content .view .views-view-grid .grid-inner .views-field-name a:focus, 
+.region-content .view .views-view-grid .grid-inner .views-field-name a:hover,
+.region-content .view .views-view-grid .grid-inner .views-field-name a:focus,
 .region-content .view .views-view-grid .grid-inner .views-field-name a:active {
   color: #ff6600;
 }
@@ -270,15 +270,15 @@ a.btn-btt {
 }
 
 /* forum */
-#forum td.forum .name a:hover, 
-#forum td.forum .name a:active, 
+#forum td.forum .name a:hover,
+#forum td.forum .name a:active,
 #forum td.forum .name a:focus {
   color: #ff6600;
 }
 
 /* sitemap */
-#site-map a:hover, 
-#site-map a:focus, 
+#site-map a:hover,
+#site-map a:focus,
 #site-map a:active {
   color: #ff6600;
 }
@@ -288,8 +288,8 @@ a.btn-btt {
   color: #ff6600;
 }
 
-.block-user .item-list li a:hover, 
-.block-user .item-list li a:focus, 
+.block-user .item-list li a:hover,
+.block-user .item-list li a:focus,
 .block-user .item-list li a:active {
   color: #ff6600;
 }
@@ -306,8 +306,8 @@ a.btn-btt {
   border-color: #8f8683;
 }
 
-.sidebar .block-views .views-field-title .field-content a:hover, 
-.sidebar .block-views .views-field-title .field-content a:focus, 
+.sidebar .block-views .views-field-title .field-content a:hover,
+.sidebar .block-views .views-field-title .field-content a:focus,
 .sidebar .block-views .views-field-title .field-content a:active {
   color: #ff6600;
 }
@@ -340,5 +340,5 @@ a.btn-btt {
 }
 
 #menu-bar-wrapper ul.menu ul li a {
- color: #aaa;
+  color: #aaa;
 }

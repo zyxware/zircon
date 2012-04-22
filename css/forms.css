@@ -129,8 +129,8 @@ a.button {
 
 input.form-checkbox {
   border: 0;
-  padding: 0;
   margin-right: 5px;
+  padding: 0;
 }
 
 .form-type-checkbox .description {

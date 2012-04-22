@@ -173,11 +173,6 @@ settings[panel_third_2_width] = 6
 settings[panel_third_3_width] = 6
 settings[panel_third_4_width] = 6
 
-; Default breadcrumb settings
-settings[breadcrumb_display] = 'yes'
-settings[breadcrumb_separator] = ' &#187; '
-settings[breadcrumb_home] = 1
-
 ; Default typography settings
 settings[base_font] = 'bf-a'
 settings[site_name_font] = ''
@@ -241,3 +236,6 @@ settings[default_logo] = 1
 settings[default_favicon] = 1
 settings[logo_path] = ''
 settings[favicon_path] = ''
+settings[breadcrumb_display] = 1
+settings[back_to_top_display] = 1
+
