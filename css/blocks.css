@@ -93,9 +93,6 @@
 */
 
 /* --- Menu Block --- */
-.block-menu {
-}
-
 .block-menu ul.menu {
   margin-bottom: 0;
   margin-left: 0;
@@ -288,10 +285,6 @@ body.not-logged-in .block-node table td.delete {
 
 .block-poll .links li a:hover {
   color: #c01700;
-}
-
-/* --- Book Blocks --- */
-.block-book {
 }
 
 /* --- Quicktabs Blocks --- */

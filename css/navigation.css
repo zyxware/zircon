@@ -47,9 +47,6 @@ a:focus {
 }
 
 /* --- Default Drupal Menu --- */
-.block ul.menu {
-}
-
 .block ul.menu ul {
   font-weight: normal;
 }
