@@ -2,8 +2,8 @@
 /**
  * @file
  * Extend template implementation to display a quote block.
- *
  */
+
 ?>
 <div id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> block-quote"<?php print $attributes; ?>>
   <span class="quote">&nbsp;</span>

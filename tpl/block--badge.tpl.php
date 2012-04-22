@@ -2,8 +2,8 @@
 /**
  * @file
  * Extend template implementation to display a badge block.
- *
  */
+
 ?>
 <div id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> block-badge"<?php print $attributes; ?>>
   <span class="badge">&nbsp;</span>

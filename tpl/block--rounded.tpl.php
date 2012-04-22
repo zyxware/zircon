@@ -2,8 +2,8 @@
 /**
  * @file
  * Extend template implementation to display a rounded block.
- *
  */
+
 ?>
 <div id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> block-rounded"<?php print $attributes; ?>>
   <div class="block-inner clearfix">
