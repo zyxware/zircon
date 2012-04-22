@@ -1,6 +1,6 @@
 <?php
 /**
- * @file page.tpl.php
+ * @file
  * Default theme implementation to display a single Drupal page.
  *
  * Available variables:
@@ -172,7 +172,7 @@
 
         <!-- MAIN CONTENT -->
         <div id="main-content" class="<?php print $content_width;?> section">
-          <div class="grid-inner clearfix">      
+          <div class="grid-inner clearfix">
 
             <?php if ($tabs = render($tabs)): ?>
               <div class="tabs"><?php print $tabs; ?></div>
@@ -234,8 +234,8 @@
   <?php if($panel_third): ?>
     <!-- PANEL THIRD -->
     <div id="panel-third-wrapper" class="wrapper panel panel-third">
-      <div class="container <?php print $grid;?> clearfix">		
-		<?php print $panel_third;?>		
+      <div class="container <?php print $grid;?> clearfix">
+        <?php print $panel_third;?>
       </div>
     </div>
     <!-- //PANEL THIRD -->
@@ -245,36 +245,27 @@
     <!-- FOOTER -->
     <div id="footer-wrapper" class="wrapper">
       <div class="container <?php print $grid; ?>">
-		<?php if ($breadcrumb || $back_to_top_display): ?>
-    <!-- BREADCRUMB -->
-    <div id="breadcrumb-wrapper" class="clearfix">      
-          <?php if ($breadcrumb):?>
-            <?php print $breadcrumb; ?>
-          <?php endif; ?>
+        <?php if ($breadcrumb || $back_to_top_display): ?>
+          <!-- BREADCRUMB -->
+          <div id="breadcrumb-wrapper" class="clearfix">
+            <?php if ($breadcrumb):?>
+              <?php print $breadcrumb; ?>
+            <?php endif; ?>
 
-          <?php if ($back_to_top_display): ?>
-            <a title="<?php print t('Back to Top')?>" class="btn-btt" href="#Top"><?php print t('Back to Top')?></a>
-          <?php endif; ?>      
-    </div>
-    <!-- //BREADCRUMB -->
-  <?php endif; ?>
-			
+            <?php if ($back_to_top_display): ?>
+              <a title="<?php print t('Back to Top')?>" class="btn-btt" href="#Top"><?php print t('Back to Top')?></a>
+            <?php endif; ?>
+          </div>
+          <!-- //BREADCRUMB -->
+        <?php endif; ?>
+
         <div class="grid-inner clearfix">
           <div id="footer" class="clearfix">
-            <?php print $footer; ?>            
+            <?php print $footer; ?>
           </div>
         </div>
       </div>
     </div>
     <!-- //FOOTER -->
   <?php endif; ?>
-</div>
-
-<div class="colors-theme">
-	<ul>
-    	<li><a href="#" class="red-color" title="Red">Red</a></li>
-        <li><a href="#" class="orange-color" title="Orange">Orange</a></li>
-        <li><a href="#" class="blue-color" title="Blue">Blue</a></li>
-        <li><a href="#" class="pink-color" title="Pink">Pink</a></li>
-    </ul>
 </div>

@@ -1,6 +1,6 @@
 <?php
 /**
- * @file views-view-grid.tpl.php
+ * @file
  * Default simple view template to display a rows in a grid.
  *
  * - $rows contains a nested array of rows. Each row contains an array of

@@ -1,14 +1,14 @@
 (function ($) {
 Drupal.behaviors.actionZircon = {
   attach: function (context) {
-	$(window).load(function() {
-	  window.setTimeout(function() {
-	    Drupal.Zircon.equalHeight($('#panel-first-wrapper .block-inner'));
-	    Drupal.Zircon.equalHeight($('#panel-second-wrapper .block-inner'))
-	    Drupal.Zircon.equalHeight($('#panel-third-wrapper .block-inner'));
-	    Drupal.Zircon.equalHeight($('.region-content .views-view-grid .views-col .grid-inner'));
-	  }, 100);
-	});
+    $(window).load(function() {
+      window.setTimeout(function() {
+        Drupal.Zircon.equalHeight($('#panel-first-wrapper .block-inner'));
+        Drupal.Zircon.equalHeight($('#panel-second-wrapper .block-inner'))
+        Drupal.Zircon.equalHeight($('#panel-third-wrapper .block-inner'));
+        Drupal.Zircon.equalHeight($('.region-content .views-view-grid .views-col .grid-inner'));
+      }, 100);
+    });
     Drupal.Zircon.putLabelToInput("search_block_form", "Search...");
     $('#subscribe').find('input[type="submit"]').val(Drupal.t("Go"));
   }
@@ -25,7 +25,7 @@ Drupal.Zircon.putLabelToInput = function(name, text) {
     if(this.value == '') {
       this.value=Drupal.t(text);
     }
-  });	  
+  });
 }
 
 Drupal.Zircon.equalHeight = function(elements) {

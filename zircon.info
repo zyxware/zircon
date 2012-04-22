@@ -238,4 +238,3 @@ settings[logo_path] = ''
 settings[favicon_path] = ''
 settings[breadcrumb_display] = 1
 settings[back_to_top_display] = 1
-
