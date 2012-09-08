@@ -11,6 +11,13 @@ Drupal.behaviors.actionZircon = {
     });
     Drupal.Zircon.putLabelToInput("search_block_form", "Search...");
     $('#subscribe').find('input[type="submit"]').val(Drupal.t("Go"));
+	$(".change-skin-button").click(function() {
+	  parts = this.href.split("/");
+	  style = parts[parts.length - 1];
+   	  $.cookie("nucleus_skin", style, {path: '/'});
+      window.location.reload();
+	  return false;
+    });
   }
 };
 

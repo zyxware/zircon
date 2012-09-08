@@ -56,28 +56,5 @@
     <?php print $page_top; ?>
     <?php print $page; ?>
     <?php print $page_bottom; ?>
-    <div class="colors-theme">
-    	<ul>
-        	<li>
-            	<span>Change color: </span>
-                <a class="color-link red-color" href="<?php print base_path() . "../default";?>" title="Red color">Red color</a>  
-                <div class="list-colors">
-                	<ul>
-                    <li><a href="<?php print base_path() . "../red";?>" title="Red color"><span class="color-link red-color"></span>Red color</a></li>
-                    	<li><a href="<?php print base_path() . "../blue";?>" title="Blue color"><span class="color-link blue-color"></span>Blue color</a></li>
-                        <li><a href="<?php print base_path() . "../pink";?>" title="Pink color"><span class="color-link pink-color"></span>Pink color</a></li>
-                        <li><a href="<?php print base_path() . "../orange";?>" title="Orange color"><span class="color-link orange-color"></span>Orange color</a></li>
-                    </ul>
-                </div>              
-            </li>
-            <li><a href="#" title="Download demo content for this color" class="btn-download">Download</a></li>
-        </ul>
-	<!--ul>
-    	<li><a href="#" class="red-color" title="Red">Red</a></li>
-        <li><a href="#" class="orange-color" title="Orange">Orange</a></li>
-        <li><a href="#" class="blue-color" title="Blue">Blue</a></li>
-        <li><a href="#" class="pink-color" title="Pink">Pink</a></li>
-    </ul-->
-</div>
   </body>
 </html>

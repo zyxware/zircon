@@ -9,10 +9,11 @@ CONTENTS OF THIS FILE
 
 ABOUT WEEBPAL
 -------------------------------------------------------------------------------
-WeebPal is a startup team consist of Developers, Stylers and Designers. We 
-understand that Drupal is very strong and promising CMS and we hope that we
-contribute some small thing to help Drupal become more friendly for Users.
-Step by step, we'll build the themes can combine:
+WeebPal is a startup team consist of Developers, Stylers and Designers. Our 
+slogan is "Usability - Technical - Art". We understand that Drupal is very 
+strong and promising CMS and we hope that we contribute some small thing to 
+help Drupal become more friendly to Users. Step by step, we'll build the themes
+can combine:
  * Design
  * Easy to use
  * Easy to customize
@@ -26,7 +27,7 @@ and give the solutions for the web cases:
  * The News solution
  * The Social Network solution
  * ...
-And to do these jobs, We believe in Nucleus basetheme can help us to do it.
+And to do all of theme, We believe in Nucleus sbasetheme can help us to do it.
 
 ZIRCON SPECIFICATION
 -------------------------------------------------------------------------------

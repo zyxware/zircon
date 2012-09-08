@@ -384,3 +384,67 @@ body.not-logged-in .block-node table td.delete {
   border: 1px solid #dadada;
   padding: 10px;
 }
+
+/* Change Skin Switch */
+#change_skin_menu_wrapper {
+  overflow: hidden;
+  position: fixed;
+  right: 10px;
+  top: 0;
+  background: #fff;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  box-shadow: 0 0 5px #888;
+}
+
+.logged-in #change_skin_menu_wrapper {
+  top: 65px;
+}
+
+#change_skin_menu_wrapper .container {
+  width: auto;
+}
+
+#change_skin_menu_wrapper ul {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 6px 5px;
+  overflow:hidden;
+}
+
+#change_skin_menu_wrapper ul li {
+  float: left;
+  padding: 0;
+  margin: 0 3px;
+}
+
+#change_skin_menu_wrapper ul li.active {
+  background: url(../images/arrow-up.png) no-repeat center bottom;
+}
+
+#change_skin_menu_wrapper ul li a {
+  display: block;
+  height: 15px;
+  text-indent: -999em;
+  width: 15px;
+}
+
+#change_skin_menu_wrapper a.color-default {
+  background: #c01700; 
+}
+
+#change_skin_menu_wrapper a.color-blue {
+  background: #13a6d2; 
+}
+
+#change_skin_menu_wrapper a.color-pink {
+  background: #ff0066; 
+}
+
+#change_skin_menu_wrapper a.color-orange {
+  background: #ff6600; 
+}
+

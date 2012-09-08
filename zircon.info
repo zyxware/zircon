@@ -84,6 +84,7 @@ supported_grids[30] = '30 Columns'
 skins[blue] = 'Blue Style'
 skins[orange] = 'Orange Style'
 skins[pink] = 'Pink Style'
+settings[show_skins_menu] = 1
 
 ;*************************************************
 ;************** SUPERFISH & QUICKTABS ************
