@@ -18,10 +18,16 @@ Drupal.behaviors.actionZircon = {
       window.location.reload();
 	  return false;
     });
+	$("#change_skin_menu_wrapper").mouseenter(function() {
+      $('#change_skin_menu_wrapper').stop(true, false).animate({left: 0}, 1000);	  
+    }).mouseleave(function() {
+      $('#change_skin_menu_wrapper').stop(true, false).animate({left: -61}, 1000);
+	});	
   }
 };
 
-Drupal.Zircon = {};
+Drupal.Zircon = Drupal.Zircon || {};
+
 Drupal.Zircon.putLabelToInput = function(name, text) {
   jQuery('input[name="' + name + '"]').val(Drupal.t(text));
   jQuery('input[name="' + name + '"]').focus(function(){
