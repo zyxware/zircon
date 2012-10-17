@@ -1,10 +1,3 @@
-/**
-*
-* Basic styles for print.
-* TODO: This needs work.
-*/
-
-/* Body */
 body {
   background: none;
   color: #000;
@@ -18,7 +11,6 @@ body {
   word-spacing: 1.1pt;
 }
 
-/* Strip backgrounds of likely candidates */
 header,
 footer,
 #branding,
@@ -44,7 +36,6 @@ table {
   background: none !important;
 }
 
-/* Hide various parts of the site. */
 .sidebar,
 #breadcrumb,
 .nav,
@@ -61,18 +52,15 @@ ul.links a,
   display: none;
 }
 
-/* Display the main content region */
 .region-content {
   display: block !important;
 }
 
-/* Layout */
 .content-inner {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* HTML elements */
 h1,
 h2,
 h3,
@@ -121,7 +109,7 @@ tt,
 samp,
 kbd,
 var {
-  font-family: Consolas, "Lucida Console", Menlo, Monaco, "DejaVu Sans Mono", monospace, sans-serif; /* Safari hack */
+  font-family: Consolas, "Lucida Console", Menlo, Monaco, "DejaVu Sans Mono", monospace, sans-serif;
   font-size: 10pt;
 }
 
@@ -136,7 +124,6 @@ hr {
   background-color: #ccc;
 }
 
-/* Header, Logo, Site name */
 header {
   padding-bottom: 15px;
 }
@@ -152,7 +139,6 @@ header {
   text-decoration: none;
 }
 
-/* Images */
 img {
   float: left;
   margin: 4px 20px 10px 0;
@@ -163,7 +149,6 @@ a img {
   border: none;
 }
 
-/* Links */
 a:link,
 a:visited {
   background: transparent;
@@ -182,7 +167,6 @@ a[href^="http://"] {
   color: #000;
 }
 
-/* Table */
 table {
   margin: 1px;
   text-align: left;
@@ -220,12 +204,10 @@ tr {
   page-break-inside: avoid;
 }
 
-/* Forms */
 form {
   margin-bottom: 10px;
 }
 
-/* Poll module */
 .poll .text,
 .poll .percent,
 .poll .total {
@@ -236,7 +218,6 @@ form {
   margin-bottom: 0;
 }
 
-/* Articles */
 .article {
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px;

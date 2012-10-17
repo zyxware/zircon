@@ -1,13 +1,4 @@
-/**
-*
-*/
-/* --- Search --- */
-#header #search-block-form {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/* --- Navigationn --- */
+#header #search-block-form,
 #menu-bar-wrapper .region-menu-bar {
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -28,13 +19,11 @@
   border-bottom-right-radius: 5px;
 }
 
-/* Navbar */
 .sf-menu.sf-style-zircon.sf-navbar ul ul {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
 
-/* --- Slideshow --- */
 .view-main-slideshow .field-content img {
   -webkit-border-radius: 5px;
   -webkit-box-shadow: 0 0 5px #888;
@@ -49,7 +38,6 @@
   border-bottom-right-radius: 5px;
 }
 
-/* --- Second Panels Blocks --- */
 #panel-third-wrapper .container {
   -webkit-border-top-left-radius: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -63,7 +51,7 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* --- Subscribe --- */
+
 .block-custom-form .form-item,
 .node .field-type-image img,
 .region-content .view .views-row .views-field-field-image img {
@@ -81,9 +69,6 @@
   box-shadow: 0 0 5px #333 inset;
 }
 
-/**
-* Main Containner
-*/
 #main-wrapper > .container {
   -webkit-border-radius: 5px;
   -webkit-box-shadow: 0 0 5px #ccc;
@@ -106,7 +91,6 @@
   border-radius: 3px;
 }
 
-/*view-horizontal-carousel */
 #panel-second-wrapper > .container {
   -webkit-border-radius: 5px;
   -webkit-box-shadow: 0 0 5px #888;
@@ -118,17 +102,8 @@
   border-radius: 0;
 }
 
-.field-type-taxonomy-term-reference ul li a {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
-
-.article ul.links li.comment_forbidden a {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
-
-/* login form */
+.field-type-taxonomy-term-reference ul li a,
+.article ul.links li.comment_forbidden a,
 #user-login-form .form-text,
 span.button input.form-submit,
 ul.pager li a,
@@ -179,12 +154,7 @@ ul.primary li a {
   border-bottom-right-radius: 5px;
 }
 
-a.btn-btt {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/********* rounded block */
+a.btn-btt,
 .block-rounded .block-inner,
 .block-xhtml .block-inner {
   -webkit-border-radius: 5px;

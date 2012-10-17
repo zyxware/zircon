@@ -1,8 +1,3 @@
-/**
-* IE 7 Compatibility Tweaks
-*/
-
-/* forms.css */
 input.form-checkbox {
   border: 0;
   margin-right: 0;
@@ -38,7 +33,6 @@ input.form-checkbox {
   width: 97.5%;
 }
 
-/* form */
 #user-login-form .form-item-name {
   margin-top: 0;
 }

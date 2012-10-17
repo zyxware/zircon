@@ -1,8 +1,7 @@
-/* --- Articles (nodes) --- */
 .node,
 .region-content .view .views-row {
   border-bottom: 1px dotted #dadada;
-  margin-bottom: 15px; /* Articles spacing */
+  margin-bottom: 15px;
   padding-bottom: 15px;
 }
 
@@ -52,7 +51,6 @@
   text-decoration: none;
 }
 
-/* User Picture */
 .article .user-picture {
   display: inline;
   margin-right: .5em;
@@ -69,7 +67,6 @@
   padding: 0 0 1.5em;
 }
 
-/* Field Image */
 .node .field-type-image,
 .region-content .view .views-row .views-field-field-image {
   background: #fff;
@@ -84,7 +81,6 @@
   padding: 4px;
 }
 
-/* Article Links */
 .article .menu {
   margin-top: 1.5em;
 }
@@ -151,7 +147,6 @@
   text-decoration: none;
 }
 
-/* Blog User Picture */
 .node-blog .user-picture {
   display: inline-block;
   vertical-align: text-top;
@@ -161,7 +156,6 @@
   margin-right: 1em;
 }
 
-/* Skinr article title alignment */
 .ta-l .article-title {
   text-align: left;
 }

@@ -1,22 +1,15 @@
-/**
-* IE Compatibility Tweaks
-*/
-
-/* blocks.css */
 .block-user .item-list li {
   zoom: 1;
 }
 
-/* forms.css */
 input.form-submit {
-  overflow: visible; /* IE Fix */
+  overflow: visible;
 }
 
 #comment-form .filter-wrapper {
   padding-top: 1em;
 }
 
-/* fields.css */
 .field-type-taxonomy-term-reference ul li {
   display: inline;
   zoom: 1;

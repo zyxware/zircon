@@ -32,7 +32,6 @@
   text-transform: uppercase;
 }
 
-/* Child Menu */
 .sf-menu.sf-style-zircon ul {
   background: #2c2f2f;
   border: 5px solid #a01300;
@@ -56,8 +55,7 @@
   border-top: none;
 }
 
-/* Hover Links */
-.sf-menu.sf-style-zircon li.sfHover > a,
+.sf-menu.sf-style-zircon li.sfhover > a,
 .sf-menu.sf-style-zircon a:hover,
 .sf-menu.sf-style-zircon a:focus,
 .sf-menu.sf-style-zircon a:active {
@@ -75,14 +73,13 @@
   text-transform: none;
 }
 
-.sf-menu.sf-style-zircon ul li.sfHover li a,
+.sf-menu.sf-style-zircon ul li.sfhover li a,
 .sf-menu.sf-style-zircon ul li li a {
   color: #aaa !important;
 }
 
-/* Child Menu Items Hover */
-.sf-menu.sf-style-zircon ul li.sfHover a,
-.sf-menu.sf-style-zircon ul li.sfHover li a:hover,
+.sf-menu.sf-style-zircon ul li.sfhover a,
+.sf-menu.sf-style-zircon ul li.sfhover li a:hover,
 .sf-menu.sf-style-zircon ul li a:focus,
 .sf-menu.sf-style-zircon ul li a:hover,
 .sf-menu.sf-style-zircon ul li a:active {
@@ -90,25 +87,18 @@
   color: #fff !important;
 }
 
-/* Active Links */
-.sf-menu.sf-style-zircon a.active {
-  background: url(../../images/bg-nav-active.gif) 0 0 repeat-x #a01300;
-  color: #fff;
-}
-
+.sf-menu.sf-style-zircon a.active,
 .sf-menu.sf-style-zircon .active-trail .sf-depth-1 {
   background: url(../../images/bg-nav-active.gif) 0 0 repeat-x #a01300;
   color: #fff;
 }
 
-/* Child Menu Items Active */
 .sf-menu.sf-style-zircon ul li a.active,
 .sf-menu.sf-style-zircon ul li li a.active {
   background: none;
   color: #fff !important;
 }
 
-/* Navbar */
 ul.sf-navbar {
   padding-bottom: 0 !important;
 }
@@ -147,10 +137,7 @@ ul.sf-navbar {
 
 .sf-menu.sf-style-zircon.sf-navbar ul li a:hover,
 .sf-menu.sf-style-zircon.sf-navbar ul li a:focus,
-.sf-menu.sf-style-zircon.sf-navbar ul li a:active {
-  color: #c01700 !important;
-}
-
+.sf-menu.sf-style-zircon.sf-navbar ul li a:active,
 .sf-menu.sf-style-zircon.sf-navbar ul li .active {
   color: #c01700 !important;
 }
@@ -193,7 +180,6 @@ ul.sf-navbar {
   color: #c01700 !important;
 }
 
-/* MegaMenu */
 .sf-menu.sf-style-zircon span.sf-description {
   color: #999;
   display: block;
@@ -207,7 +193,7 @@ ul.sf-navbar {
   padding-right: 2.25em;
 }
 
-.sf-menu.sf-style-zircon.rtl a.sf-with-ul { /* RTL */
+.sf-menu.sf-style-zircon.rtl a.sf-with-ul {
   padding-left: 2.25em;
   padding-right: 1em;
 }
@@ -219,7 +205,7 @@ ul.sf-navbar {
 }
 
 .sf-menu.sf-style-zircon.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
-  float: right; /* RTL */
+  float: right;
 }
 
 .sf-menu.sf-style-zircon ul.sf-megamenu li.sf-megamenu-wrapper ol,

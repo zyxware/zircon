@@ -1,8 +1,3 @@
-/**
-* Common View Elements
-*/
-
-/* --- Views Inline Grid --- */
 .cols-1 .views-col {
   width: 100%;
 }
@@ -27,7 +22,6 @@
   width: 16.66%;
 }
 
-/* sidebar view */
 .sidebar .block-views .views-row {
   border-bottom: 1px dotted #dadada;
   overflow: hidden;
@@ -58,7 +52,6 @@
   color: #c01700;
 }
 
-/* pannel view */
 #panel-third-wrapper .block-views .views-row {
   border-bottom: 1px dotted #717578;
   overflow: hidden;
@@ -91,10 +84,6 @@
   text-decoration: none;
 }
 
-/**
-* Supported Views Formats
-*/
-/* --- Slideshow --- */
 #slideshow-wrapper .block-content {
   padding: 0;
 }
@@ -108,7 +97,6 @@
   padding: 0;
 }
 
-/* Titles */
 .slideshow-group-fields-wrapper {
   background: url(../images/bg-black.png) 0 0 repeat;
   bottom: 0;
@@ -116,6 +104,7 @@
   position: absolute;
   width: 100%;
 }
+
 .view-main-slideshow .views-field-title {
   color: #fff;
   font-size: 1.25em;
@@ -148,14 +137,13 @@
   padding: 1px 15px;
 }
 
-/* Slideshow Navigator */
 .view-main-slideshow .views-slideshow-controls-bottom {
   bottom: 15px;
   height: auto;
   position: absolute;
   right: 10px;
   width: auto;
-  z-index: 20; /* if you have more than 18 images in slideshow, increase this value */
+  z-index: 20;
 }
 
 .views-slideshow-controls-bottom .views-content-nid {
@@ -189,7 +177,7 @@
 }
 
 #slideshow-wrapper .views-slideshow-controls-top {
-  display: none; /* Hide the Navigator on top . Remove this line to show. */
+  display: none;
 }
 
 .view-main-slideshow .views_slideshow_controls_text {
@@ -219,27 +207,16 @@
   padding-top: 4px;
 }
 
-/* Slideshow Full Pager */
-#slideshow-wrapper .view > .pager {
-  bottom: 0;
-  height: auto;
-  position: absolute;
-  right: 0;
-  width: auto;
-  z-index: 20; /* if you have more than 18 images in slideshow, increase this value */
-}
-
-/* Slideshow Mini Pager */
+#slideshow-wrapper .view > .pager,
 #slideshow-wrapper .views-mini-pager {
   bottom: 0;
   height: auto;
   position: absolute;
   right: 0;
   width: auto;
-  z-index: 20; /* if you have more than 18 images in slideshow, increase this value */
+  z-index: 20;
 }
 
-/* Categories */
 .region-content .view .views-view-grid .views-row {
   border-bottom: none;
   margin-bottom: 0;
@@ -284,7 +261,6 @@
   padding: 0;
 }
 
-/* unformatted */
 .region-content .view .views-row {
   overflow: hidden;
 }

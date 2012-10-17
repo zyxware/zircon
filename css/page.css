@@ -1,20 +1,13 @@
-/* Grid Gutter */
 .grid-inner {
   padding: 0 10px;
 }
 
-/**
-* Main Containner
-*/
 #main-wrapper > .container {
   background: #fff;
   border: 1px solid #d9d9d9;
   margin-bottom: 15px;
 }
 
-/**
-* Header
-*/
 #header-wrapper .grid-inner {
   padding: 0;
 }
@@ -29,7 +22,6 @@
   position: relative;
 }
 
-/* Logo & Site name */
 #logo {
   float: left;
   margin-right: 10px;
@@ -47,11 +39,7 @@
   text-transform: uppercase;
 }
 
-.site-name a {
-  color: #333;
-  text-decoration: none;
-}
-
+.site-name a,
 .site-name a:hover,
 .site-name a:focus,
 .site-name a:active {
@@ -67,19 +55,15 @@
   text-transform: uppercase;
 }
 
-/* Region */
 .region-header {
   float: right;
   margin-top: 8px;
 }
 
-/**
-* Main Navigation
-*/
 #menu-bar-wrapper {
   margin: 0 0 15px;
   position: relative;
-  z-index: 499; /* Drupal toolbar index is 600 */
+  z-index: 499;
 }
 
 #menu-bar-wrapper .grid-inner {
@@ -96,22 +80,15 @@
   width: 100%;
 }
 
-/**
-* Main Content
-*/
 #main-content > .grid-inner {
   padding: 10px;
 }
 
-#main-content .region-content #block-system-main .block-inner {
-  padding: 0;
-}
-
+#main-content .region-content #block-system-main .block-inner,
 #main-content .region-content #block-system-main .block-content {
   padding: 0;
 }
 
-/* Page Title */
 #page-title {
   font-family: 'oswaldregular';
   font-weight: normal;
@@ -122,14 +99,10 @@
   padding: 10px;
 }
 
-/**
-* Sidebars
-*/
 .sidebar {
   margin: 10px 0;
 }
 
-/* --- First Panel --- */
 #panel-first-wrapper {
   margin-bottom: 15px;
 }
@@ -202,7 +175,6 @@
   text-decoration: none;
 }
 
-/* --- Second Panel --- */
 #panel-second-wrapper {
   margin-bottom: 15px;
 }
@@ -212,15 +184,8 @@
   height: 160px;
 }
 
-#panel-second-wrapper .block-inner {
-  padding: 0;
-}
-
-#panel-second-wrapper .grid-inner {
-  padding: 0;
-}
-
-/* --- Third Panel --- */
+#panel-second-wrapper .block-inner,
+#panel-second-wrapper .grid-inner,
 #panel-third-wrapper .grid-inner {
   padding: 0;
 }
@@ -230,9 +195,6 @@
   padding: 20px 0 15px;
 }
 
-/**
-* Slideshow
-*/
 #slideshow-wrapper {
   margin: 0 0 15px;
 }
@@ -241,9 +203,6 @@
   padding: 0;
 }
 
-/**
-* Footer
-*/
 #footer-wrapper {
   margin-bottom: 10px;
 }
@@ -274,11 +233,6 @@
   color: #fff;
 }
 
-/**
-* Other Pages
-*/
-
-/* Blog Action Links */
 .page-blog ul.action-links {
   margin: 0 0 2em;
   padding: 0;
@@ -305,7 +259,6 @@
   text-decoration: none;
 }
 
-/* --- Profiles --- */
 .profile {
   margin-top: 0;
 }
@@ -320,7 +273,6 @@
   float: none;
 }
 
-/* --- Search Results --- */
 .search-results {
   margin: 0;
 }
@@ -358,7 +310,6 @@
   padding-top: 3px;
 }
 
-/* Vote Form */
 .poll .vote-form {
   text-align: left;
 }
@@ -382,7 +333,6 @@
   margin: 1px 5px 0 0;
 }
 
-/* Vote Result */
 .poll .bar {
   background: #ddd;
 }
@@ -396,13 +346,10 @@
   font-size: 0.92em;
 }
 
-/* --- Feed Aggregator ---*/
-/* Feed Items */
 #aggregator .feed-item {
   margin-bottom: 40px;
 }
 
-/* Feed Lists */
 #aggregator .feed {
   margin: 1em 0;
 }
@@ -421,25 +368,16 @@
   margin: .5em 0 0;
 }
 
-#aggregator .feed .feed-name {
-  margin: 0;
-}
-
+#aggregator .feed .feed-name,
 #aggregator .feed .links a {
   margin: 0;
 }
 
-/* --- Maintenance Page --- */
 .maintenance-page #skip-link {
   position: absolute;
   top: -99em;
 }
 
-/**
-* Misc.
-*/
-
-/* Feed icons */
 .feed-icon img {
   padding: 0 10px;
 }
@@ -460,7 +398,6 @@
   float: right;
 }
 
-/* gallery */
 .galleryformatter {
   margin-bottom: 15px;
 }
@@ -522,7 +459,6 @@
   background-position: 0 0;
 }
 
-/***********/
 .page-tracker table {
   margin-bottom: 15px;
 }
@@ -532,7 +468,6 @@
   width: 100%;
 }
 
-/* sitemap */
 #site-map a {
   color: #333;
 }

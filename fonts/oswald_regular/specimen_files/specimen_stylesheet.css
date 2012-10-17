@@ -1,10 +1,4 @@
-@import url('grid_12-825-55-15.css');
-
-/*
-CSS Reset by Eric Meyer - Released under Public Domain
-http://meyerweb.com/eric/tools/css/reset/
-*/
-html,
+@import url('grid_12-825-55-15.css');html,
 body,
 div,
 span,
@@ -74,33 +68,40 @@ td {
   padding: 0;
   vertical-align: baseline;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
   content: none;
 }
+
 :focus {
   outline: 0;
 }
+
 ins {
   text-decoration: none;
 }
+
 del {
   text-decoration: line-through;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -142,6 +143,7 @@ h2 {
 #header span {
   color: #666;
 }
+
 #main_content {
   background-color: #fff;
   padding: 60px 20px 20px;
@@ -160,12 +162,14 @@ h2 {
   height: 31px;
   width: 100%;
 }
+
 .tabs li {
   background-color: #444;
   float: left;
   margin: 0;
   overflow: hidden;
 }
+
 .tabs li a {
   border-right: 1px solid #fff;
   color: #fff;
@@ -192,6 +196,7 @@ div.huge {
   overflow: hidden;
   padding: 0;
 }
+
 div.glyph_range {
   font-size: 72px;
   line-height: 1.1em;
@@ -200,61 +205,70 @@ div.glyph_range {
 .size10 {
   font-size: 10px;
 }
+
 .size11 {
   font-size: 11px;
 }
+
 .size12 {
   font-size: 12px;
 }
+
 .size13 {
   font-size: 13px;
 }
+
 .size14 {
   font-size: 14px;
 }
+
 .size16 {
   font-size: 16px;
 }
+
 .size18 {
   font-size: 18px;
 }
+
 .size20 {
   font-size: 20px;
 }
+
 .size24 {
   font-size: 24px;
 }
+
 .size30 {
   font-size: 30px;
 }
+
 .size36 {
   font-size: 36px;
 }
+
 .size48 {
   font-size: 48px;
 }
+
 .size60 {
   font-size: 60px;
 }
+
 .size72 {
   font-size: 72px;
 }
+
 .size90 {
   font-size: 90px;
 }
 
+.psample_row1,
 .psample_row1 {
   height: 120px;
 }
-.psample_row1 {
-  height: 120px;
-}
-.psample_row2 {
-  height: 160px;
-}
-.psample_row3 {
-  height: 160px;
-}
+
+.psample_row2,
+.psample_row3,
 .psample_row4 {
   height: 160px;
 }
@@ -263,6 +277,7 @@ div.glyph_range {
   overflow: hidden;
   position: relative;
 }
+
 .psample p {
   display: block;
   line-height: 1.3em;
@@ -274,20 +289,15 @@ div.glyph_range {
   margin-right: .5em;
 }
 
-.white_blend {
-  background-image: url(data: image/png; base64, iVBORw0KGgoAAAANSUhEUgAAAVkAAAA9CAYAAAAH4BojAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO1JREFUeNrs3TsKgFAMRUE/eer+NxztxMYuEWQG3ECKwwUF58ycAKixOAGAyAKILAAiCyCyACILgMgCiCyAyAIgsgAiCyCyAIgsgMgCiCwAIgsgsgAiC4DIAogsACIL0CWuZ3UGgLrIhjMA1EV2OAOAJQtgyQLwjOzmDAAiCyCyAIgsQFtkd2cAEFkAkQVAZAHaIns4A4AlC2DJAiCyACILILIAiCzAV5H1dQGAJQsgsgCILIDIAvwisl58AViyAJYsACILILIAIgvAe2T9EhxAZAFEFgCRBeiL7HAGgLrIhjMAWLIAliwAt1OAAQDwygTBulLIlQAAAABJRU5ErkJggg==);
-  bottom: 0;
-  height: 61px;
-  position: absolute;
-  width: 100%;
-}
+.white_blend,
 .black_blend {
-  background-image: url(data: image/png; base64, iVBORw0KGgoAAAANSUhEUgAAAVkAAAA9CAYAAAAH4BojAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPJJREFUeNrs3TEKhTAQRVGjibr/9QoxhY2N3Ywo50A28IrLwP9g6b1PAMSYTQAgsgAiC4DIAogsgMgCILIAIgsgsgCILIDIAogsACILILIAIguAyAKILIDIAiCyACILgMgCZCnjLWYAiFGvB0BQZJsZAFyyAC5ZAO6RXc0AILIAIguAyAKkRXYzA4DIAogsACILkBbZ3QwALlkAlywAIgsgsgAiC4DIArwVWf8uAHDJAogsACILILIAv4isH74AXLIALlkARBZAZAFEFoDnyPokOIDIAogsACILkBfZZgaAuMhWMwC4ZAE+p4x3mAEgxinAAJ+XBbPWGkwAAAAAAElFTkSuQmCC);
+  background-image: url(data;
   bottom: 0;
   height: 61px;
   position: absolute;
   width: 100%;
 }
+
 .fullreverse {
   background: #000 !important;
   color: #fff !important;
@@ -365,6 +375,7 @@ code {
   left: 0;
   position: absolute;
 }
+
 #xheight {
   color: #d9f3ff;
   float: none;
@@ -376,21 +387,21 @@ code {
 .fontbody {
   position: relative;
 }
+
 .arialbody {
   font-family: Arial;
   position: relative;
 }
+
 .verdanabody {
   font-family: Verdana;
   position: relative;
 }
+
 .georgiabody {
   font-family: Georgia;
   position: relative;
 }
-
-/* @group Layout page
-*/
 
 #layout h1 {
   font-size: 36px;
@@ -420,6 +431,7 @@ code {
   margin-bottom: 0;
   margin-top: 18px;
 }
+
 #layout p {
   font-size: 14px;
   line-height: 21px;
@@ -441,10 +453,6 @@ code {
   margin-bottom: 18px;
   margin-top: -16px;
 }
-
-/* @end */
-
-/* @group Glyphs */
 
 #glyph_chart div {
   background-color: #d9f3ff;
@@ -477,9 +485,6 @@ code {
 #glyphs h1 {
   font-family: Arial, sans-serif;
 }
-/* @end */
-
-/* @group Installing */
 
 #installing {
   font: 13px Arial, sans-serif;
@@ -497,11 +502,10 @@ code {
   margin-top: 18px;
 }
 
-/* @end */
-
 #rendering h1 {
   font-family: Arial, sans-serif;
 }
+
 .render_table td {
   font: 11px "Courier New", Courier, mono;
   vertical-align: middle;

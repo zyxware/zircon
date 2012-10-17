@@ -1,8 +1,3 @@
-/**
-* Font-Family Presets
-*/
-
-/* sans-serif small */
 body.bf-sss,
 .bf-sss .form-text,
 .snf-sss .site-name,
@@ -14,7 +9,6 @@ body.bf-sss,
   font-family: Calibri, Candara, "Helvetica Neue", "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
-/* sans-serif large */
 body.bf-ssl,
 .bf-ssl .form-text,
 .snf-ssl .site-name,
@@ -26,7 +20,6 @@ body.bf-ssl,
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
-/* sans-serif arial/helvitica */
 body.bf-a,
 .bf-a .form-text,
 .snf-a .site-name,
@@ -38,7 +31,6 @@ body.bf-a,
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* serif small */
 body.bf-ss,
 .bf-ss .form-text,
 .snf-ss .site-name,
@@ -50,7 +42,6 @@ body.bf-ss,
   font-family: Garamond, Perpetua, "Times New Roman", serif;
 }
 
-/* serif large */
 body.bf-sl,
 .bf-sl .form-text,
 .snf-sl .site-name,
@@ -62,7 +53,6 @@ body.bf-sl,
   font-family: Georgia, Baskerville, Palatino, "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
 }
 
-/* modern */
 body.bf-m,
 .bf-m .form-text,
 .snf-m .site-name,
@@ -74,7 +64,6 @@ body.bf-m,
   font-family: "Segoe UI", "Myriad Pro", Myriad, Arial, Helvetica, sans-serif;
 }
 
-/* lucida */
 body.bf-l,
 .bf-l .form-text,
 .snf-l .site-name,
@@ -86,7 +75,6 @@ body.bf-l,
   font-family: "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", Verdana, Geneva, sans-serif;
 }
 
-/* mono */
 body.bf-ms,
 .bf-ms .form-text,
 .snf-ms .site-name,
@@ -98,11 +86,6 @@ body.bf-ms,
   font-family: Consolas, Monaco, "Courier New", Courier, monospace;
 }
 
-/*
-* Base Font Sizes
-*/
-
-/* Base fontsize is 62.5% = 10px. Change the value in html-elements.css */
 .fs-smallest {
   font-size: 1.1em;
 }

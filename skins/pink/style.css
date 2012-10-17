@@ -1,20 +1,12 @@
-/**
-Blue Color
-*/
 body {
   background: url(images/bg-body.png) no-repeat 50% 0 fixed #666668;
 }
 
-/* link */
-a {
-  color: #ff0066;
-}
-
+a,
 a:hover {
   color: #ff0066;
 }
 
-/* Active Links */
 #menu-bar-wrapper .region-menu-bar {
   background: #252525;
 }
@@ -27,16 +19,9 @@ a:hover {
   color: #fff;
 }
 
-.sf-menu.sf-style-zircon a.active {
-  background: #e3005b;
-}
-
-.sf-menu.sf-style-zircon .active-trail .sf-depth-1 {
-  background: #e3005b;
-}
-
-/* Hover Links */
-.sf-menu.sf-style-zircon li.sfHover > a,
+.sf-menu.sf-style-zircon a.active,
+.sf-menu.sf-style-zircon .active-trail .sf-depth-1,
+.sf-menu.sf-style-zircon li.sfhover > a,
 .sf-menu.sf-style-zircon a:hover,
 .sf-menu.sf-style-zircon a:focus,
 .sf-menu.sf-style-zircon a:active {
@@ -50,10 +35,7 @@ a:hover {
 
 .sf-menu.sf-style-zircon.sf-navbar ul li a:hover,
 .sf-menu.sf-style-zircon.sf-navbar ul li a:focus,
-.sf-menu.sf-style-zircon.sf-navbar ul li a:active {
-  color: #ff0066 !important;
-}
-
+.sf-menu.sf-style-zircon.sf-navbar ul li a:active,
 .sf-menu.sf-style-zircon.sf-navbar ul li .active {
   color: #ff0066 !important;
 }
@@ -70,7 +52,6 @@ a:hover {
   color: #ff0066 !important;
 }
 
-/* menu */
 .block ul.menu li a {
   background: url(images/ico-menu.png) 5px 11px no-repeat;
 }
@@ -101,16 +82,10 @@ a:hover {
   color: #ff0066;
 }
 
-.block-user .item-list li a.username {
-  color: #ff0066;
-}
-
+.block-user .item-list li a.username,
 .view-grid-panel .views-field-title a:hover,
 .view-grid-panel .views-field-title a:focus,
-.view-grid-panel .views-field-title a:active {
-  color: #ff0066;
-}
-
+.view-grid-panel .views-field-title a:active,
 .node-title a:hover,
 .node-title a:active,
 .node-title a:focus,
@@ -139,23 +114,16 @@ a:hover {
   background: #252525;
 }
 
-.block-quicktabs .views-row .views-field-title a:hover {
-  color: #ff0066;
-}
-
+.block-quicktabs .views-row .views-field-title a:hover,
 .quicktabs-style-zircon .block-content .item-list ul li a:hover,
 .quicktabs-style-zircon .block-content .item-list ul li a:active,
-.quicktabs-style-zircon .block-content .item-list ul li a:focus {
-  color: #ff0066;
-}
-
+.quicktabs-style-zircon .block-content .item-list ul li a:focus,
 .item-list ul li a:hover,
 .item-list ul li a:active,
 .item-list ul li a:focus {
   color: #ff0066;
 }
 
-/* Active Accordion Header */
 .quick-accordion-zircon .ui-state-active {
   background: #ff0066;
   border: 1px solid #ff0066;
@@ -165,7 +133,6 @@ a:hover {
   color: #ff0066;
 }
 
-/* controls */
 .view-horizontal-carousel .jcarousel-prev-horizontal {
   background: url(images/controls.png) 0 0 no-repeat;
 }
@@ -182,7 +149,6 @@ a:hover {
   background-position: 0 -90px;
 }
 
-/* contact */
 .email-address a {
   color: #ff0066;
 }
@@ -191,7 +157,6 @@ a:hover {
   color: #fff;
 }
 
-/* Newsletter */
 .block-custom-form .form-item {
   background: #000;
   border-bottom: none;
@@ -206,12 +171,10 @@ a:hover {
   color: #666;
 }
 
-/* tab admin */
 ul.primary li a:hover {
   color: #ff0066;
 }
 
-/* button */
 span.button input.form-submit:hover,
 span.button input.form-submit:focus,
 .comment ul.links li a:hover,
@@ -220,7 +183,6 @@ span.button input.form-submit:focus,
   background: #ff0066;
 }
 
-/* comment */
 .comment-title a:hover,
 .comment-title a:active,
 .comment-title a:focus {
@@ -240,14 +202,12 @@ span.button input.form-submit:focus,
   background: #333;
 }
 
-/* Categories */
 .region-content .view .views-view-grid .grid-inner .views-field-name a:hover,
 .region-content .view .views-view-grid .grid-inner .views-field-name a:focus,
 .region-content .view .views-view-grid .grid-inner .views-field-name a:active {
   color: #ff0066;
 }
 
-/* gallery */
 .galleryformatter-greenarrows .gallery-thumbs .back {
   background: url(images/controls.png) no-repeat 0 0;
 }
@@ -264,25 +224,13 @@ span.button input.form-submit:focus,
   background-position: 0 -90px;
 }
 
-/* forum */
 #forum td.forum .name a:hover,
 #forum td.forum .name a:active,
-#forum td.forum .name a:focus {
-  color: #ff0066;
-}
-
-/* sitemap */
+#forum td.forum .name a:focus,
 #site-map a:hover,
 #site-map a:focus,
-#site-map a:active {
-  color: #ff0066;
-}
-
-/* sarch */
-.search-results .title a:hover {
-  color: #ff0066;
-}
-
+#site-map a:active,
+.search-results .title a:hover,
 .block-user .item-list li a:hover,
 .block-user .item-list li a:focus,
 .block-user .item-list li a:active {
@@ -312,25 +260,21 @@ span.button input.form-submit:focus,
   box-shadow: 0 0 5px #333;
 }
 
-/* sidebar view */
 .sidebar .block-views .views-field-title .field-content a:hover,
 .sidebar .block-views .views-field-title .field-content a:focus,
 .sidebar .block-views .views-field-title .field-content a:active {
   color: #ff0066;
 }
 
-/* pannel */
 #panel-third-wrapper h2,
 .email-address a {
   text-shadow: 0 1px 0 #000;
 }
 
-/* back to top */
 a.btn-btt {
   background: #000;
 }
 
-/* menu bar */
 #menu-bar-wrapper ul.menu li {
   background: url(images/bg-line-nav.gif) 0 0 repeat-y;
 }
@@ -338,10 +282,7 @@ a.btn-btt {
 #menu-bar-wrapper ul.menu li a:hover,
 #menu-bar-wrapper ul.menu li a:focus,
 #menu-bar-wrapper ul.menu li a:active,
-#menu-bar-wrapper ul.menu li a.active {
-  background: #e3005b;
-}
-
+#menu-bar-wrapper ul.menu li a.active,
 #menu-bar-wrapper ul.menu li.active-trail > a.active-trail {
   background: #e3005b;
 }

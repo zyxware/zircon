@@ -1,14 +1,13 @@
 html {
-  font-size: 62.5%; /* Change base font-size to 10px. */
+  font-size: 62.5%;
 }
 
 body {
   background: #f6f6f6;
   color: #333;
-  line-height: 1.5; /* Unit-less line-height means line height can scale. */
+  line-height: 1.5;
 }
 
-/* Headings */
 h1 {
   font-size: 2em;
 }
@@ -21,10 +20,7 @@ h3 {
   font-size: 1.167em;
 }
 
-h4 {
-  font-size: 1em;
-}
-
+h4,
 h5,
 h6 {
   font-size: 1em;
@@ -97,14 +93,12 @@ th {
   font-weight: bold;
 }
 
-/* Reset horizonatal rules */
 hr {
   border-style: inset;
   border-width: 1px;
   display: block;
 }
 
-/* Lists */
 ul,
 ol {
   margin: 0 0 1.5em 2em;
@@ -169,7 +163,6 @@ dd {
   margin: 0 0 1.5em 1.538em;
 }
 
-/* Common Tables ---*/
 table {
   font-size: 100%;
   margin: 0;
@@ -181,7 +174,6 @@ table.sticky-header {
   z-index: 10;
 }
 
-/* Table Head */
 th {
   background: #333;
   border-bottom: 0;
@@ -189,17 +181,13 @@ th {
   padding: .75em 1em;
 }
 
-th a {
-  color: #fff;
-}
-
+th a,
 th a:hover,
 th a:active,
 th a:focus {
   color: #fff;
 }
 
-/* Table Body */
 td {
   padding: .75em 1em;
 }

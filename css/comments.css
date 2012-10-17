@@ -1,9 +1,3 @@
-/**
-*
-* TODO: check classes still apply in D7 - in particular the unpublished classes and the extra classes.
-*/
-
-/* Comment wrapper */
 #comments {
   border-top: 1px dotted #dadada;
   margin-top: 1.5em;
@@ -25,14 +19,12 @@
   padding-top: 0;
 }
 
-/* Individual comment */
 .comment {
   border: 1px solid #dadada;
   margin-bottom: 1.5em;
   padding: 15px;
 }
 
-/* Indentation */
 #comments .indented {
   background: url(../images/indent-tree.gif) no-repeat left top;
   margin-bottom: 1em;
@@ -40,7 +32,6 @@
   padding-left: 30px;
 }
 
-/* Comment Title */
 .comment-title {
   margin: 0;
   padding: 0;
@@ -58,7 +49,6 @@
   text-decoration: underline;
 }
 
-/* Skinr comment title alignment. */
 .ta-l .comment-title {
   text-align: left;
 }
@@ -71,19 +61,16 @@
   text-align: center;
 }
 
-/* Comment "new" title */
 .comment-title .new {
   color: #f80;
 }
 
-/* Submitted */
 .comment > .footer {
   color: #666;
   font-size: 0.92em;
   margin: .5em 0 1em;
 }
 
-/* Links */
 .comment .comment-links {
   margin-top: 0;
 }
@@ -114,10 +101,6 @@
   color: #fff;
   text-decoration: none;
 }
-
-/**
-* Comment Form
-*/
 
 .comment-form-wrapper h2 {
   font-family: 'oswaldregular';
