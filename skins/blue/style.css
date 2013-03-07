@@ -26,7 +26,7 @@ a:hover {
 
 .sf-menu.sf-style-zircon a.active,
 .sf-menu.sf-style-zircon .active-trail .sf-depth-1,
-.sf-menu.sf-style-zircon li.sfhover > a,
+.sf-menu.sf-style-zircon li.sfHover > a,
 .sf-menu.sf-style-zircon a:hover,
 .sf-menu.sf-style-zircon a:focus,
 .sf-menu.sf-style-zircon a:active {
@@ -120,7 +120,7 @@ a:hover {
 .sidebar .block-title,
 .block-rounded .block-title,
 .block-xhtml .block-title {
-  background: url(images/bg-title.gif) 0 100% repeat-x #1bbce3;
+  background: #0a8ebd;
 }
 
 .block-quicktabs .views-row .views-field-title a:hover,
@@ -275,11 +275,11 @@ span.button input.form-submit:focus,
 
 #panel-third-wrapper .container,
 #panel-second-wrapper .container {
-  background: url(images/bg-1.gif) repeat 0 0 #00698d;
+  
 }
 
 #panel-third-wrapper .block-inner {
-  border-color: #5ea5ba;
+ 
 }
 
 #footer-wrapper .container {

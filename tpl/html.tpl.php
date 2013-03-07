@@ -47,6 +47,11 @@
   <head>
     <?php print $head; ?>
     <title><?php print $head_title; ?></title>
+	<!-- META FOR IOS & HANDHELD -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <!-- //META FOR IOS & HANDHELD -->
     <?php print $styles; ?>
     <?php print $scripts; ?>
   </head>

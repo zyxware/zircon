@@ -218,7 +218,7 @@ ul.pager {
 }
 
 .item-list ul.pager li {
-  display: block;
+  display: inline-block;
   float: left;
   margin: 0 0 0 4px;
   padding: 0;

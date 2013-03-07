@@ -117,23 +117,25 @@
               )); ?>
             </div> <!-- /#secondary-menu -->
           <?php endif; ?>
+		  <?php if($menu_bar = render($page['menu_bar'])): ?>
+		  <!-- MAIN NAV -->
+		  <div id="menu-bar-wrapper" class="wrapper">
+		    <div class="container <?php print $grid; ?>">
+			  <div class="grid-inner clearfix">
+			    <a title="Navigation Icon" href="javascript:void(0);" class="tb-main-menu-button responsive-menu-button">Menu</a>
+			    <?php print $menu_bar; ?>
+			  </div>
+		    </div>
+		  </div>
+		  <!-- //MAIN NAV -->
+	    <?php endif;?>
         </div>
       </div>
     </div>
   </div>
   <!-- //HEADER -->
 
-  <?php if($menu_bar = render($page['menu_bar'])): ?>
-    <!-- MAIN NAV -->
-    <div id="menu-bar-wrapper" class="wrapper">
-      <div class="container <?php print $grid; ?>">
-        <div class="grid-inner clearfix">
-          <?php print $menu_bar; ?>
-        </div>
-      </div>
-    </div>
-    <!-- //MAIN NAV -->
-  <?php endif;?>
+  
 
   <?php if($slideshow = render($page['slideshow'])): ?>
     <!-- SLIDESHOW -->
@@ -162,7 +164,7 @@
   <?php if($panel_first): ?>
     <!-- PANEL FIRST -->
     <div id="panel-first-wrapper" class="wrapper panel panel-first">
-      <div class="container <?php print $grid;?> clearfix">
+      <div class="container <?php print $panel_first_cols;?> <?php print $grid;?> clearfix">
         <?php print $panel_first;?>
       </div>
     </div>
@@ -225,7 +227,7 @@
   <?php if($panel_second): ?>
     <!-- PANEL SECOND -->
     <div id="panel-second-wrapper" class="wrapper panel panel-second">
-      <div class="container <?php print $grid;?> clearfix">
+      <div class="container <?php print $panel_second_cols;?> <?php print $grid;?> clearfix">
         <?php print $panel_second;?>
       </div>
     </div>
@@ -235,7 +237,7 @@
   <?php if($panel_third): ?>
     <!-- PANEL THIRD -->
     <div id="panel-third-wrapper" class="wrapper panel panel-third">
-      <div class="container <?php print $grid;?> clearfix">
+      <div class="container <?php print $panel_third_cols;?> <?php print $grid;?> clearfix">
         <?php print $panel_third;?>
       </div>
     </div>

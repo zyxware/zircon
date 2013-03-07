@@ -76,4 +76,32 @@ function zircon_preprocess_page(&$vars) {
   if (!empty($current_skin) && $current_skin != 'default'  && $default_logo && $toggle_logo) {
     $vars['logo'] = file_create_url(drupal_get_path('theme', $theme_key)) . "/skins/" . $current_skin . "/logo.png";
   }
+  drupal_add_js('
+	(function ($) {
+	  if (Drupal.Nucleus == undefined) {
+		Drupal.Nucleus = {};
+	  }
+	  Drupal.behaviors.skinMenuAction = {
+		attach: function (context) {
+		  jQuery(".change-skin-button").click(function() {
+			parts = this.href.split("/");
+			style = parts[parts.length - 1];
+			jQuery.cookie("nucleus_skin", style, {path: "' . base_path() . '"});
+			window.location.reload();
+			return false;
+		  });
+		}
+	  }
+	})(jQuery);
+  ', 'inline');  
+}
+
+function zircon_preprocess_html(&$vars) {
+  $current_skin = theme_get_setting('skin');
+  if (isset($_COOKIE['nucleus_skin'])) {
+    $current_skin = $_COOKIE['nucleus_skin'];
+  }
+  if(!empty($current_skin) && $current_skin != 'default') {
+    $vars['classes_array'][] = $current_skin . "-skin";
+  }  
 }

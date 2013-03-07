@@ -14,7 +14,7 @@
 
 #header-wrapper .container {
   min-height: 46px;
-  padding: 17px 0 17px 0;
+  padding-top: 17px;
 }
 
 #header {
@@ -76,7 +76,6 @@
 
 #menu-bar-wrapper .region-menu-bar {
   background: url(../images/bg-nav.gif) 0 0 repeat-x #282a2c;
-  height: 45px;
   width: 100%;
 }
 
@@ -152,7 +151,8 @@
   text-decoration: none;
 }
 
-.view-grid-panel .views-field-field-image {
+.view-grid-panel .views-field-field-image,
+.view-grid-panel .views-field-field-product-image {
   margin-bottom: 10px;
 }
 
@@ -448,8 +448,9 @@
 }
 
 .galleryformatter-greenarrows .view-full {
-  background: url(../images/ico-zoom.png) no-repeat 0 0;
+  background: none;
   bottom: 5px;
+  display: none;
   height: 36px;
   top: auto;
   width: 36px;

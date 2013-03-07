@@ -344,13 +344,13 @@
 .telephone-number {
   color: #fff;
   display: block;
-  font-size: 2em;
+  font-size: 1.66em;
 }
 
 .email-address {
   color: #ff4e36;
   display: block;
-  font-size: 2em;
+  font-size: 1.66em;
 }
 
 .email-address a {

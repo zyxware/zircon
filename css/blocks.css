@@ -351,7 +351,7 @@ body.not-logged-in .block-node table td.delete {
   padding-right: 37px;
   position: fixed;
   top: 25%;
-  z-index: 495;
+  z-index: 600;
 }
 
 #change_skin_menu_wrapper .container {
@@ -405,3 +405,12 @@ body.not-logged-in .block-node table td.delete {
 #change_skin_menu_wrapper a.color-orange {
   background: #ff6600;
 }
+
+#change_skin_menu_wrapper a.color-green {
+  background: #69980a;
+}
+
+#change_skin_menu_wrapper a.color-tea {
+  background: #9f9743;
+}
+

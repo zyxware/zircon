@@ -11,8 +11,7 @@
 
 .sf-menu.sf-style-zircon li {
   background: url(../../images/bg-line-nav.gif) 0 0 no-repeat;
-  display: block;
-  float: left;
+  display: block; 
   margin: 0;
   padding: 0 0 0 2px;
 }
@@ -55,7 +54,7 @@
   border-top: none;
 }
 
-.sf-menu.sf-style-zircon li.sfhover > a,
+.sf-menu.sf-style-zircon li.sfHover > a,
 .sf-menu.sf-style-zircon a:hover,
 .sf-menu.sf-style-zircon a:focus,
 .sf-menu.sf-style-zircon a:active {
