@@ -252,6 +252,12 @@ ul.inline, ul.links.inline {
 		background: $dark_grey;
 		padding: 7px 10px;
 		color: $white;
+		a{
+			color: $white;
+		}
+		img{
+			margin-left: 3px;
+		}
 	}
 	td{
 		padding: 7px 10px;
@@ -307,6 +313,7 @@ ul.inline, ul.links.inline {
 	bottom: 20px;
 	right: 20px;
 	color: #eee;
+	display: none;
 	&:before{
 		@extend .font_awesome;
 		content: "\f062";

@@ -23,16 +23,4 @@ function zircon_preprocess_page(&$variables) {
     $classes[] = 'no-sidebars';
     $variables['page']['main_content_width'] = 12;
   }
-  $libraries['#attached']['library'][] = array('zircon-scripts');
-  drupal_render($libraries);
-}
-
-function zircon_page_alter(&$page) {
-  $page['#attached']['js'][] = drupal_get_path('theme', 'zircon') . '/jssor/js/jssor.core.js';
-  $page['#attached']['js'][] = drupal_get_path('theme', 'zircon') . '/jssor/js/jssor.utils.js';
-  $page['#attached']['js'][] = drupal_get_path('theme', 'zircon') . '/jssor/js/jssor.slider.js';
-  $page['#attached']['js'][] = drupal_get_path('theme', 'zircon') . '/js/slideshow.js';
-  $page['#attached']['js'][] = drupal_get_path('theme', 'zircon') . '/slick/slick/slick.js';
-  $page['#attached']['js'][] = drupal_get_path('theme', 'zircon') . '/js/carousel.js';
-  $page['#attached']['js'][] = drupal_get_path('theme', 'zircon') . '/js/jquery.smooth-scroll.js';
 }

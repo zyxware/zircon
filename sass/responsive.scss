@@ -180,6 +180,13 @@
 			}
 		}
 	}
+
+	#main-menu {
+		.navbar-header{
+			right: 0;
+			margin: 0;
+		}
+	}
 	
 	/* slideshow */
 	#slideshow{
@@ -218,12 +225,23 @@
 			width: 190px;
 			.form-item {
 				.form-search{
-					width: 143px;
+					width: 83%;
 				}
 			}
 			.button{
 				padding: 0;
 				width: 26px;
+			}
+		}
+	}
+	#main {
+		
+		.feedback-contact-message-form{
+			label{
+				display: block;
+			}
+			.form-text, .form-email{
+				width: 230px;
 			}
 		}
 	}
@@ -244,6 +262,20 @@
 				margin: 0;
 				padding: 0 10px;
 			}
+		}
+	}
+	#forum {
+		td, th{
+			padding: 7px 3px;
+			font-size: 0.923em;
+		}
+	}
+	#forum td.created, #forum td.posts, #forum td.topics, #forum td.last-reply, #forum td.replies, #forum td.pager{
+		white-space: normal;
+	}
+	#comments{
+		.form-text{
+			width: 100%;
 		}
 	}
 }
@@ -289,14 +321,7 @@
 				}
 			}
 		}
-		.feedback-contact-message-form{
-			label{
-				display: block;
-			}
-			.form-text, .form-email{
-				width: 230px;
-			}
-		}
+		
 	}
 	#footer{
 		 ul.menu{

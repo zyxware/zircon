@@ -12,14 +12,16 @@ stylesheets:
     - bootstrap/css/bootstrap-theme.css
     - fonts/oswald_regular/stylesheet.css
     - fontawesome/css/font-awesome.min.css
+    - slick/slick/slick.css
+    - slick/css/style.css
+    - css/monokai/monokai.min/css
     - css/html.css
     - css/page.css
     - css/block.css
     - css/view.css
     - css/slideshow.css
-    - css/monokai/monokai.min/css
-    - slick/slick/slick.css
-    - slick/css/style.css
+    - css/responsive.css
+ 
   print:
     - css/print.css
 ckeditor_stylesheets:

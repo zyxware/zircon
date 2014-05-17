@@ -229,12 +229,15 @@
 		position: relative;
 		@extend .box_shadow;
 		overflow: hidden;
-		@extend .border_radius;
-		
 		.views-field {
 			margin-bottom: 0;
 			a{
 				color: $white;
+			}
+		}
+		.views-field-field-slideshow{
+			img{
+				@extend .border_radius;
 			}
 		}
 		.views-field-title {
@@ -723,6 +726,9 @@
 		-webkit-border-bottom-left-radius: 3px;
 		color: $dark_grey;
 		float: left;
+		height: 30px;
+		line-height: 1.6;
+		vertical-align: middle;
 	}
 	.form-submit{
 		background-color: $red;

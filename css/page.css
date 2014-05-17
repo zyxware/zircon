@@ -328,17 +328,25 @@ ul.inline .node-readmore a:hover, ul.inline .node-readmore a:focus, ul.links.inl
   padding: 7px 10px;
   color: white;
 }
-/* line 256, ../sass/page.scss */
+/* line 255, ../sass/page.scss */
+#forum th a {
+  color: white;
+}
+/* line 258, ../sass/page.scss */
+#forum th img {
+  margin-left: 3px;
+}
+/* line 262, ../sass/page.scss */
 #forum td {
   padding: 7px 10px;
   border-bottom: 1px solid #dadada;
   border-bottom-style: dotted;
 }
-/* line 260, ../sass/page.scss */
+/* line 266, ../sass/page.scss */
 #forum td .name {
   font-weight: bold;
 }
-/* line 264, ../sass/page.scss */
+/* line 270, ../sass/page.scss */
 #forum td.container {
   background: #ddd;
   border-bottom: 1px solid #ccc;
@@ -347,35 +355,35 @@ ul.inline .node-readmore a:hover, ul.inline .node-readmore a:focus, ul.links.inl
   border-radius: 0;
   box-shadow: none;
 }
-/* line 272, ../sass/page.scss */
+/* line 278, ../sass/page.scss */
 #forum tr.odd {
   background: #f7f7f7;
 }
 
 /* book */
-/* line 279, ../sass/page.scss */
+/* line 285, ../sass/page.scss */
 .book-navigation .menu {
   margin: 0 0 20px 20px;
   padding: 0;
 }
-/* line 282, ../sass/page.scss */
+/* line 288, ../sass/page.scss */
 .book-navigation .menu li {
   list-style: disc;
 }
-/* line 286, ../sass/page.scss */
+/* line 292, ../sass/page.scss */
 .book-navigation .book-pager {
   border-top: 1px solid #dadada;
   border-top-style: dotted;
   padding: 15px 0 0;
 }
 
-/* line 292, ../sass/page.scss */
+/* line 298, ../sass/page.scss */
 .field-name-field-category {
   margin-bottom: 15px;
 }
 
 /* back to top */
-/* line 297, ../sass/page.scss */
+/* line 303, ../sass/page.scss */
 .btn-btt {
   position: fixed;
   z-index: 100;
@@ -389,20 +397,21 @@ ul.inline .node-readmore a:hover, ul.inline .node-readmore a:focus, ul.links.inl
   bottom: 20px;
   right: 20px;
   color: #eee;
+  display: none;
 }
-/* line 310, ../sass/page.scss */
+/* line 317, ../sass/page.scss */
 .btn-btt:before {
   content: "\f062";
   font-size: 1.23em;
   margin-top: 12px;
 }
-/* line 316, ../sass/page.scss */
+/* line 323, ../sass/page.scss */
 .btn-btt:hover, .btn-btt:focus {
   opacity: 1;
   color: #fff;
 }
 
-/* line 321, ../sass/page.scss */
+/* line 328, ../sass/page.scss */
 .map {
   padding-top: 20px;
   border-top: 1px solid #dadada;

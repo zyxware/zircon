@@ -282,123 +282,146 @@
     padding: 0 44px;
   }
 
+  /* line 185, ../sass/responsive.scss */
+  #main-menu .navbar-header {
+    right: 0;
+    margin: 0;
+  }
+
   /* slideshow */
-  /* line 187, ../sass/responsive.scss */
+  /* line 194, ../sass/responsive.scss */
   #slideshow .container .jssorb05 {
     bottom: 26px !important;
   }
-  /* line 189, ../sass/responsive.scss */
+  /* line 196, ../sass/responsive.scss */
   #slideshow .container .jssorb05 div {
     width: 26px !important;
     height: 26px !important;
   }
-  /* line 194, ../sass/responsive.scss */
+  /* line 201, ../sass/responsive.scss */
   #slideshow .container .views-field-title {
     display: none;
   }
 
-  /* line 201, ../sass/responsive.scss */
+  /* line 208, ../sass/responsive.scss */
   #featured .container .views-col {
     width: 100% !important;
     margin-bottom: 15px;
   }
 
-  /* line 208, ../sass/responsive.scss */
+  /* line 215, ../sass/responsive.scss */
   .navbar-collapse.in {
     overflow: visible;
   }
 
   /* sidebar */
-  /* line 214, ../sass/responsive.scss */
+  /* line 221, ../sass/responsive.scss */
   #header .region-header {
     padding-right: 50px;
   }
-  /* line 217, ../sass/responsive.scss */
+  /* line 224, ../sass/responsive.scss */
   #header .search-block-form {
     width: 190px;
   }
-  /* line 220, ../sass/responsive.scss */
+  /* line 227, ../sass/responsive.scss */
   #header .search-block-form .form-item .form-search {
-    width: 143px;
+    width: 83%;
   }
-  /* line 224, ../sass/responsive.scss */
+  /* line 231, ../sass/responsive.scss */
   #header .search-block-form .button {
     padding: 0;
     width: 26px;
   }
 
+  /* line 240, ../sass/responsive.scss */
+  #main .feedback-contact-message-form label {
+    display: block;
+  }
+  /* line 243, ../sass/responsive.scss */
+  #main .feedback-contact-message-form .form-text, #main .feedback-contact-message-form .form-email {
+    width: 230px;
+  }
+
   /* footer */
-  /* line 232, ../sass/responsive.scss */
+  /* line 250, ../sass/responsive.scss */
   #footer .block {
     float: none;
     width: 100%;
     margin-bottom: 10px;
     text-align: center;
   }
-  /* line 237, ../sass/responsive.scss */
+  /* line 255, ../sass/responsive.scss */
   #footer .block p {
     margin: 0;
   }
-  /* line 241, ../sass/responsive.scss */
+  /* line 259, ../sass/responsive.scss */
   #footer ul.menu {
     text-align: center;
   }
-  /* line 243, ../sass/responsive.scss */
+  /* line 261, ../sass/responsive.scss */
   #footer ul.menu li {
     margin: 0;
     padding: 0 10px;
   }
+
+  /* line 268, ../sass/responsive.scss */
+  #forum td, #forum th {
+    padding: 7px 3px;
+    font-size: 0.923em;
+  }
+
+  /* line 273, ../sass/responsive.scss */
+  #forum td.created, #forum td.posts, #forum td.topics, #forum td.last-reply, #forum td.replies, #forum td.pager {
+    white-space: normal;
+  }
+
+  /* line 277, ../sass/responsive.scss */
+  #comments .form-text {
+    width: 100%;
+  }
 }
 @media (max-width: 479px) {
-  /* line 253, ../sass/responsive.scss */
+  /* line 285, ../sass/responsive.scss */
   #header #logo {
     float: none;
   }
-  /* line 256, ../sass/responsive.scss */
+  /* line 288, ../sass/responsive.scss */
   #header .region-header {
     float: none;
     padding: 15px 50px 0 0;
   }
-  /* line 260, ../sass/responsive.scss */
+  /* line 292, ../sass/responsive.scss */
   #header .search-block-form {
     width: 100%;
   }
 
-  /* line 266, ../sass/responsive.scss */
+  /* line 298, ../sass/responsive.scss */
   #main-menu .navbar-header {
     top: -48px;
   }
 
-  /* line 273, ../sass/responsive.scss */
+  /* line 305, ../sass/responsive.scss */
   #slideshow .container .jssorb05 div {
     width: 34px !important;
     height: 34px !important;
   }
 
-  /* line 283, ../sass/responsive.scss */
+  /* line 315, ../sass/responsive.scss */
   #main .container .content .field-type-image {
     float: none;
     margin: 0 0 15px !important;
   }
-  /* line 287, ../sass/responsive.scss */
+  /* line 319, ../sass/responsive.scss */
   #main .container .content #edit-user-picture-wrapper {
     padding: 5px;
   }
-  /* line 293, ../sass/responsive.scss */
-  #main .feedback-contact-message-form label {
-    display: block;
-  }
-  /* line 296, ../sass/responsive.scss */
-  #main .feedback-contact-message-form .form-text, #main .feedback-contact-message-form .form-email {
-    width: 230px;
-  }
 
-  /* line 303, ../sass/responsive.scss */
+  /* line 328, ../sass/responsive.scss */
   #footer ul.menu li {
     padding: 0 5px;
   }
 
-  /* line 310, ../sass/responsive.scss */
+  /* line 335, ../sass/responsive.scss */
   .page .slider .views-field-field-image {
     padding: 0 10px;
   }

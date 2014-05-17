@@ -15,6 +15,21 @@
         if($(this).val() === "") {
           $(this).val(Drupal.t("Keywords"));
         }
+      });
+      $(window).scroll(function() {
+        if($(window).scrollTop() > 200) {
+            $('.btn-btt').show();
+          }
+          else {
+            $('.btn-btt').hide();
+          }
+     }).resize(function(){
+        if($(window).scrollTop() > 200) {
+            $('.btn-btt').show();
+          }
+          else {
+            $('.btn-btt').hide();
+          }
       });      
     }
   };
