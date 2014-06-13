@@ -7,16 +7,25 @@ a:hover {
   color: #13a6d2;
 }
 
-#menu-bar-wrapper .region-menu-bar {
-  background: url(images/bg-nav.gif) repeat-x 0 0 #564640;
+#menu-bar-wrapper {
+  background: url(images/bg-nav.gif) repeat-x 0 0 #1fb5dd;
 }
 
-.sf-menu.sf-style-zircon li {
+.tb-megamenu .nav > li {
   background: none;
-  padding-left: 1px;
+  padding-left:0;
 }
 
-.sf-menu.sf-style-zircon a {
+.tb-megamenu .nav > .active > a, 
+.tb-megamenu .nav > .active > a:hover, 
+.tb-megamenu .nav > .active > a:focus, 
+.tb-megamenu .nav > li > a:focus, 
+.tb-megamenu .nav > li > a:hover, 
+.tb-megamenu .nav li.dropdown.open > .dropdown-toggle {
+  background: url(images/bg-nav-active.gif) 0 0 repeat-x;
+}
+
+.tb-megamenu .nav > li > a {
   background: url(images/bg-nav-2.gif) 100% 0 no-repeat;
   color: #fff;
   padding-bottom: 14px;
@@ -24,40 +33,90 @@ a:hover {
   text-shadow: 0 1px 0 #086484;
 }
 
-.sf-menu.sf-style-zircon a.active,
-.sf-menu.sf-style-zircon .active-trail .sf-depth-1,
-.sf-menu.sf-style-zircon li.sfHover > a,
-.sf-menu.sf-style-zircon a:hover,
-.sf-menu.sf-style-zircon a:focus,
-.sf-menu.sf-style-zircon a:active {
-  background: url(images/bg-nav-active.gif) 0 0 repeat-x #db5513;
-}
-
-.sf-menu.sf-style-zircon ul {
+.tb-megamenu .dropdown-menu {
   background: #0582ad;
   border-color: #0f9ace;
 }
 
-.sf-menu.sf-style-zircon.sf-navbar ul li a:hover,
-.sf-menu.sf-style-zircon.sf-navbar ul li a:focus,
-.sf-menu.sf-style-zircon.sf-navbar ul li a:active,
-.sf-menu.sf-style-zircon.sf-navbar ul li .active {
-  color: #13a6d2 !important;
-}
-
-.sf-menu.sf-style-zircon ul li {
+.tb-megamenu .dropdown-menu li > a {
   border-color: #068dbc;
+  color: #e2dfdf;
 }
 
-.sf-menu.sf-style-zircon ul li a {
+.tb-megamenu .row-fluid + .row-fluid {
+  border-color: #31bee3;
+}
+
+.tb-megamenu .mega-nav .mega-group > .mega-group-title, 
+.tb-megamenu .dropdown-menu .mega-nav .mega-group > .mega-group-title, 
+.tb-megamenu .dropdown-menu .active .mega-nav .mega-group > .mega-group-title {
+  border-color: #068dbc;
   color: #e2dfdf !important;
 }
 
-.sf-menu.sf-style-zircon.sf-navbar ul li.menuparent:hover > a,
-.sf-menu.sf-style-zircon.sf-navbar ul ul li a:hover,
-.sf-menu.sf-style-zircon.sf-navbar ul ul li a:active,
-.sf-menu.sf-style-zircon.sf-navbar ul ul li a:focus,
-.sf-menu.sf-style-zircon.sf-navbar ul ul li a.active {
+.tb-megamenu .dropdown-menu .tb-block, 
+.tb-megamenu .dropdown-menu .tb-block a {
+  color: #e2dfdf;
+}
+
+.tb-megamenu .nav li.dropdown > .dropdown-toggle .caret {
+  border-bottom-color: #fff;
+  border-top-color: #fff;
+}
+
+.tb-megamenu .dropdown-menu .active > a, 
+.tb-megamenu .dropdown-menu .active > a:hover {
+  color: #fff;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon li {
+  background: none;
+  padding-left: 1px;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon > a {
+  background: url(images/bg-nav-2.gif) 100% 0 no-repeat;
+  color: #fff;
+  padding-bottom: 14px;
+  padding-top: 10px;
+  text-shadow: 0 1px 0 #086484;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon > a.active,
+#menu-bar-wrapper .sf-menu.sf-style-zircon > .active-trail .sf-depth-1,
+#menu-bar-wrapper .sf-menu.sf-style-zircon > li.sfHover > a,
+#menu-bar-wrapper .sf-menu.sf-style-zircon > a:hover,
+#menu-bar-wrapper .sf-menu.sf-style-zircon > a:focus,
+#menu-bar-wrapper .sf-menu.sf-style-zircon > a:active {
+  background: url(images/bg-nav-active.gif) 0 0 repeat-x #db5513;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon ul {
+  background: #0582ad;
+  border-color: #0f9ace;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul li a:hover,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul li a:focus,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul li a:active,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul li .active {
+  color: #13a6d2 !important;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon ul li {
+  border-color: #068dbc;
+  padding-left: 0;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon ul li a {
+  color: #e2dfdf;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul li.menuparent:hover > a,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul ul li a:hover,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul ul li a:active,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul ul li a:focus,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul ul li a.active {
   color: #13a6d2 !important;
 }
 

@@ -96,6 +96,9 @@ function zircon_preprocess_page(&$vars) {
   ', 'inline');  
 }
 
+/**
+ *
+ */
 function zircon_preprocess_html(&$vars) {
   $current_skin = theme_get_setting('skin');
   if (isset($_COOKIE['nucleus_skin'])) {
@@ -104,4 +107,27 @@ function zircon_preprocess_html(&$vars) {
   if(!empty($current_skin) && $current_skin != 'default') {
     $vars['classes_array'][] = $current_skin . "-skin";
   }  
+}
+
+/**
+ *
+ */
+function zircon_preprocess_node(&$vars) {
+  
+  $skins = zircon_get_predefined_param('skins', array('default' => t("Default skin")));
+  foreach ($skins as $key => $val) {
+    if ($vars['node_url'] == base_path() . 'skins/' . $key && (!isset($_COOKIE['nucleus_skin']) || $_COOKIE['nucleus_skin'] != $key)) {
+      setcookie('nucleus_skin', $key, time() + 100000, base_path());
+      header('Location: ' . $vars['node_url']);
+    }
+  }
+
+}
+
+
+function zircon_get_predefined_param($param, $pre_array = array(), $suf_array = array()) {
+  global $theme_key;
+  $theme_data = list_themes();
+  $result = isset($theme_data[$theme_key]->info[$param]) ? $theme_data[$theme_key]->info[$param] : array();
+  return $pre_array + $result + $suf_array;
 }

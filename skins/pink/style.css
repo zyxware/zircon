@@ -11,44 +11,100 @@ a:hover {
   background: #252525;
 }
 
-.sf-menu.sf-style-zircon li {
+#menu-bar-wrapper {
+  background: #252525;
+}
+
+.tb-megamenu .nav > li {
   background: url(images/bg-line-nav.gif) repeat-y 0 0;
+  padding-left: 2px;
 }
 
-.sf-menu.sf-style-zircon a {
-  color: #fff;
-}
-
-.sf-menu.sf-style-zircon a.active,
-.sf-menu.sf-style-zircon .active-trail .sf-depth-1,
-.sf-menu.sf-style-zircon li.sfHover > a,
-.sf-menu.sf-style-zircon a:hover,
-.sf-menu.sf-style-zircon a:focus,
-.sf-menu.sf-style-zircon a:active {
+.tb-megamenu .nav > .active > a, 
+.tb-megamenu .nav > .active > a:hover, 
+.tb-megamenu .nav > .active > a:focus, 
+.tb-megamenu .nav > li > a:focus, 
+.tb-megamenu .nav > li > a:hover, 
+.tb-megamenu .nav li.dropdown.open > .dropdown-toggle,
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, 
+.tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, 
+.tb-megamenu .nav > li.dropdown.open.active > a:hover {
   background: #e3005b;
 }
 
-.sf-menu.sf-style-zircon ul {
+.tb-megamenu .nav > li > a {
+  color: #fff;
+}
+
+.tb-megamenu .dropdown-menu {
   background: #252525;
   border-color: #e3005b;
 }
 
-.sf-menu.sf-style-zircon.sf-navbar ul li a:hover,
-.sf-menu.sf-style-zircon.sf-navbar ul li a:focus,
-.sf-menu.sf-style-zircon.sf-navbar ul li a:active,
-.sf-menu.sf-style-zircon.sf-navbar ul li .active {
+.tb-megamenu .dropdown-menu li > a {
+  color: #aaa;
+}
+
+.tb-megamenu .mega-nav .mega-group > .mega-group-title, 
+.tb-megamenu .dropdown-menu .mega-nav .mega-group > .mega-group-title, 
+.tb-megamenu .dropdown-menu .active .mega-nav .mega-group > .mega-group-title {
+  color: #aaa !important;
+}
+
+.tb-megamenu .dropdown-menu .tb-block, 
+.tb-megamenu .dropdown-menu .tb-block a {
+  color: #aaa;
+}
+
+.tb-megamenu .nav li.dropdown > .dropdown-toggle .caret {
+  border-bottom-color: #fff;
+  border-top-color: #fff;
+}
+
+.tb-megamenu .dropdown-menu .active > a, 
+.tb-megamenu .dropdown-menu .active > a:hover {
+  color: #fff;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon li {
+  background: url(images/bg-line-nav.gif) repeat-y 0 0;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon > a {
+  color: #fff;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon > a.active,
+#menu-bar-wrapper .sf-menu.sf-style-zircon > .active-trail .sf-depth-1,
+#menu-bar-wrapper .sf-menu.sf-style-zircon > li.sfHover > a,
+#menu-bar-wrapper .sf-menu.sf-style-zircon > a:hover,
+#menu-bar-wrapper .sf-menu.sf-style-zircon > a:focus,
+#menu-bar-wrapper .sf-menu.sf-style-zircon > a:active {
+  background: #e3005b;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon ul {
+  background: #252525;
+  border-color: #e3005b;
+}
+
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul li a:hover,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul li a:focus,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul li a:active,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul li .active {
   color: #ff0066 !important;
 }
 
-.sf-menu.sf-style-zircon ul li {
+#menu-bar-wrapper .sf-menu.sf-style-zircon ul li {
   border-color: #2f2f2f;
+  padding-left: 0;
 }
 
-.sf-menu.sf-style-zircon.sf-navbar ul li.menuparent:hover > a,
-.sf-menu.sf-style-zircon.sf-navbar ul ul li a:hover,
-.sf-menu.sf-style-zircon.sf-navbar ul ul li a:active,
-.sf-menu.sf-style-zircon.sf-navbar ul ul li a:focus,
-.sf-menu.sf-style-zircon.sf-navbar ul ul li a.active {
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul li.menuparent:hover > a,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul ul li a:hover,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul ul li a:active,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul ul li a:focus,
+#menu-bar-wrapper .sf-menu.sf-style-zircon.sf-navbar ul ul li a.active {
   color: #ff0066 !important;
 }
 

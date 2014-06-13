@@ -7,13 +7,15 @@
 
   Drupal.Responsive.updateResponsiveMenu = function(){
     var windowWidth = window.innerWidth ? window.innerWidth : $(window).width();
+    if ( $('#block-tb-megamenu-main-menu').length > 0 ) return;
+    
     if(windowWidth < Drupal.Responsive.supportedScreens[3]){
-      $('.region-menu-bar').hide();
-      $('.responsive-menu-button').show();
+      $('.region-menu-bar').css('display', 'none');
+      $('.responsive-menu-button').css('display', 'block');
     }
     else{
-      $('.responsive-menu-button').hide();
-      $('.region-menu-bar').show();
+      $('.responsive-menu-button').css('display', 'none');
+      $('.region-menu-bar').css('display', 'block');
     }
   }
 
@@ -73,7 +75,7 @@
     attach: function (context) {
       $(window).load(function() {
         Drupal.Responsive.initResponsiveMenu();
-        Drupal.Responsive.initMasonry();
+        //Drupal.Responsive.initMasonry();
         $(window).resize(function(){
           var windowWidth = window.innerWidth ? window.innerWidth : $(window).width();
           if(windowWidth != Drupal.Responsive.oldWindowWidth){
@@ -81,10 +83,12 @@
             Drupal.Responsive.oldWindowWidth = windowWidth;
           }
           Drupal.Responsive.setSlideshowHeight();
+		  /*
           for($i = 0; $i < Drupal.Responsive.masonry_containers.length; $i ++) {
         	Drupal.Responsive.updateColumnWidth($i);        	  
             $(Drupal.Responsive.masonry_containers).masonry('reload');
           }
+		  */
         });
       });
     }

@@ -13,8 +13,8 @@
 }
 
 #header-wrapper .container {
-  min-height: 46px;
-  padding-top: 17px;
+  min-height: 45px;
+  margin-top: 17px;
 }
 
 #header {
@@ -23,7 +23,6 @@
 }
 
 #logo {
-  float: left;
   margin-right: 10px;
 }
 
@@ -60,8 +59,14 @@
   margin-top: 8px;
 }
 
+.responsive-menu-button {
+  display: none;
+}
+
 #menu-bar-wrapper {
-  margin: 0 0 15px;
+  background: url(../images/bg-nav.gif) 0 0 repeat-x #282a2c;
+  border-radius: 5px;
+  margin: 15px 0;
   position: relative;
   z-index: 499;
 }
@@ -75,7 +80,7 @@
 }
 
 #menu-bar-wrapper .region-menu-bar {
-  background: url(../images/bg-nav.gif) 0 0 repeat-x #282a2c;
+  
   width: 100%;
 }
 
@@ -481,4 +486,8 @@
 
 #site-map li {
   margin: 2px 0;
+}
+
+#page #credits {
+  display: none;
 }
