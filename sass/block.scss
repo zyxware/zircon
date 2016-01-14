@@ -3,6 +3,8 @@
 /* header */
 
 .site-logo {
+    display: inline-block;
+    height: 39px;
     img {
         width: 120px;
     }
@@ -450,6 +452,15 @@
                 margin-right: -2px;
                 content:"\f105";
             }
+           
+        }
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            /* Safari 5+ ONLY */
+            ::i-block-chrome, .flex-next {
+                &:before {
+                    margin-right: 0;
+                }
+            }
         }
     }
 }
@@ -483,6 +494,9 @@
             font-size: 1.38em;
             @extend .font_oswald;
             max-height: 25px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
     }
 }
@@ -1122,5 +1136,34 @@ ul.tabs {
 #block-quoteinfo {
     .field-item {
         margin-bottom: 0;
+    }
+}
+
+
+.block-views-blockcontent-recent-block-1 {
+    .views-row {
+        border-top: 1px dotted #dadada;
+        &:first-child {
+            border-top: none;
+        }
+    }
+    .views-field-title {
+        overflow: hidden;
+        white-space: nowrap;
+        a {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.block-views-blockour-products-block-1 {
+    .views-field-title {
+        a {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
     }
 }

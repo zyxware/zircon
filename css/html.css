@@ -119,14 +119,15 @@ img {
 input, button, select, textarea {
   padding: 6px;
   border: 1px solid #ddd;
+  outline: none;
 }
 
-/* line 61, ../sass/html.scss */
+/* line 62, ../sass/html.scss */
 label {
   font-weight: normal;
 }
 
-/* line 64, ../sass/html.scss */
+/* line 65, ../sass/html.scss */
 p {
   margin-bottom: 15px;
 }

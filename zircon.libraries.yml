@@ -1,5 +1,5 @@
 global-styling:
-  version: 8.0.0-rc1
+  version: 8.0.0
   css:
     base:
       includes/bootstrap/css/bootstrap.css: {}

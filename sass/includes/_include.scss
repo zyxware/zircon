@@ -71,3 +71,10 @@ $light_grey_3: #ddd;
     -ms-transform: scale($scale-size, $milisecond);
     -ms-transition-duration: $milisecond;
 }
+
+@mixin translate($val...) {
+    -webkit-transform: translate($val);
+    -moz-transform: translate($val);
+    -o-transform: translate($val);
+    transform: translate($val);
+}

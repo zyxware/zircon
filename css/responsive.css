@@ -688,85 +688,101 @@
   #header .block-system-branding-block {
     float: none;
     margin-bottom: 15px;
+    display: inline-block;
   }
 
-  /* line 482, ../sass/responsive.scss */
+  /* line 483, ../sass/responsive.scss */
   #main-menu .navbar-header {
     top: -48px;
   }
 
-  /* line 489, ../sass/responsive.scss */
+  /* line 490, ../sass/responsive.scss */
   #slideshow .container .jssorb05 div {
     width: 34px !important;
     height: 34px !important;
   }
-  /* line 495, ../sass/responsive.scss */
+  /* line 496, ../sass/responsive.scss */
   #slideshow .flex-caption {
-    padding: 10px 15px;
-    font-size: 1.000em;
+    font-size: 1em;
+    height: 60px;
+    position: relative;
   }
-  /* line 501, ../sass/responsive.scss */
+  /* line 500, ../sass/responsive.scss */
+  #slideshow .flex-caption a {
+    display: block;
+    left: 0;
+    padding: 10px 15px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translate(0px, -50%);
+    -moz-transform: translate(0px, -50%);
+    -o-transform: translate(0px, -50%);
+    transform: translate(0px, -50%);
+    width: 100%;
+  }
+  /* line 513, ../sass/responsive.scss */
   #slideshow .flex-control-paging li a {
     width: 11px;
     height: 11px;
   }
-  /* line 505, ../sass/responsive.scss */
+  /* line 517, ../sass/responsive.scss */
   #slideshow .flex-control-paging li a.flex-active:before {
     width: 5px;
     height: 5px;
     top: 3px;
     left: 3px;
   }
-  /* line 515, ../sass/responsive.scss */
+  /* line 527, ../sass/responsive.scss */
   #slideshow .flex-control-nav {
     bottom: 8px;
     right: 2px;
   }
-  /* line 518, ../sass/responsive.scss */
+  /* line 530, ../sass/responsive.scss */
   #slideshow .flex-control-nav li {
     margin: 0 4px;
   }
 
-  /* line 526, ../sass/responsive.scss */
+  /* line 538, ../sass/responsive.scss */
   #main .container .content .field-type-image {
     float: none;
     margin: 0 0 15px !important;
   }
-  /* line 530, ../sass/responsive.scss */
+  /* line 542, ../sass/responsive.scss */
   #main .container .content #edit-user-picture-wrapper {
     padding: 5px;
   }
-  /* line 535, ../sass/responsive.scss */
+  /* line 547, ../sass/responsive.scss */
   #main .forum {
     overflow: auto;
   }
-  /* line 537, ../sass/responsive.scss */
+  /* line 549, ../sass/responsive.scss */
   #main .forum table {
     overflow-x: auto;
   }
 
-  /* line 544, ../sass/responsive.scss */
+  /* line 556, ../sass/responsive.scss */
   #footer ul.menu li {
     padding: 0 5px;
   }
 
-  /* line 551, ../sass/responsive.scss */
+  /* line 563, ../sass/responsive.scss */
   .page .slider .views-field-field-image {
     padding: 0 10px;
   }
 
-  /* line 557, ../sass/responsive.scss */
+  /* line 569, ../sass/responsive.scss */
   #main .contact-message-feedback-form .form-text,
   #main .contact-message-feedback-form .form-email {
     width: 100%;
   }
 
-  /* line 560, ../sass/responsive.scss */
+  /* line 572, ../sass/responsive.scss */
   #featured .container .views-field-title {
     max-height: 100%;
   }
 
-  /* line 565, ../sass/responsive.scss */
+  /* line 577, ../sass/responsive.scss */
   .sidebar .our-products-list .views-row {
     margin-bottom: 20px !important;
   }
@@ -778,43 +794,43 @@
     visibility: hidden;
     height: 0;
   }
-  /* line 568, ../sass/responsive.scss */
+  /* line 580, ../sass/responsive.scss */
   .sidebar .our-products-list .views-row .views-field-field-image {
     float: none;
     margin: 0 0 10px 0;
   }
-  /* line 572, ../sass/responsive.scss */
+  /* line 584, ../sass/responsive.scss */
   .sidebar .our-products-list .views-row .views-field-title {
     position: static;
     background: none;
     color: #555555;
   }
-  /* line 576, ../sass/responsive.scss */
+  /* line 588, ../sass/responsive.scss */
   .sidebar .our-products-list .views-row .views-field-title a {
     color: #555555;
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
   }
-  /* line 582, ../sass/responsive.scss */
+  /* line 594, ../sass/responsive.scss */
   .sidebar .our-products-list .views-row .views-field-title a:hover, .sidebar .our-products-list .views-row .views-field-title a:focus {
     color: #c01700;
   }
 }
 @media (max-width: 360px) {
-  /* line 595, ../sass/responsive.scss */
+  /* line 607, ../sass/responsive.scss */
   #slideshow .flex-direction-nav a {
     width: 30px;
     height: 30px;
     border: 2px solid #fff;
     line-height: 39px;
   }
-  /* line 600, ../sass/responsive.scss */
+  /* line 612, ../sass/responsive.scss */
   #slideshow .flex-direction-nav a:before {
     font-size: 18px;
     margin-top: 0;
   }
-  /* line 606, ../sass/responsive.scss */
+  /* line 618, ../sass/responsive.scss */
   #slideshow .flex-direction-nav a {
     margin-top: -27px;
   }
