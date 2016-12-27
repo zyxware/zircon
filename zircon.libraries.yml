@@ -1,41 +1,46 @@
 global-styling:
-  version: 8.0.0-rc1
+  version: 8.0.0
   css:
     base:
-      includes/bootstrap/css/bootstrap.css: {}
-      includes/bootstrap/css/bootstrap-theme.css: {}
-      includes/fonts/oswald_regular/stylesheet.css: {}
-      includes/fontawesome/css/font-awesome.min.css: {}
-      includes/slick/slick/slick.css: {}
-      includes/slick/css/style.css: {}
-      includes/monokai/monokai.min/css: {}
-      includes/flexslider/flexslider.css: {}
-      css/html.css: {}
-      css/page.css: {}
-      css/block.css: {}
-      css/view.css: {}
-      css/slideshow.css: {}
-      css/responsive.css: {}
-      css/print.css: { media: print }
+      assets/includes/slick/slick/slick.css: {}
+      assets/includes/slick/slick/slick-theme.css: {}
+      assets/includes/slick/css/style.css: {}
+      assets/includes/monokai/monokai.min/css: {}
+      assets/includes/flexslider/flexslider.css: {}
+      assets/css/slideshow.css: {}
+      assets/css/style.css: {}
+      assets/css/style-rtl.css: {}
   js:
-    js/scripts.js: {}
-    includes/respond/respond.min.js: {}
-    includes/respond/html5shiv.min.js: {}
-    includes/js/jquery.smooth-scroll.js: {}
-    includes/jssor/js/jssor.core.js: {}
-    includes/jssor/js/jssor.utils.js: {}
-    includes/jssor/js/jssor.slider.js: {}
-    includes/slick/slick/slick.js: {}
-    includes/bootstrap/js/bootstrap.js: {}
-    includes/flexslider/jquery.flexslider.js: {}
-    includes/flexslider/jquery.flexslider-min.js: {}
-    js/slideshow.js: {}
-    js/carousel.js: {}
-    js/zircon.js: {}
-    js/fix_script.js: {}
+    assets/js/scripts.js: {}
+    assets/includes/respond/respond.min.js: {}
+    assets/includes/respond/html5shiv.min.js: {}
+    assets/includes/js/jquery.smooth-scroll.js: {}
+    assets/includes/jssor/js/jssor.core.js: {}
+    assets/includes/jssor/js/jssor.utils.js: {}
+    assets/includes/jssor/js/jssor.slider.js: {}
+    assets/includes/slick/slick/slick.js: {}
+    assets/includes/bootstrap/js/bootstrap.js: {}
+    assets/includes/flexslider/jquery.flexslider.js: {}
+    assets/includes/flexslider/jquery.flexslider-min.js: {}
+    assets/js/slideshow.js: {}
+    assets/js/carousel.js: {}
+    assets/js/zircon.js: {}
+    assets/js/fix_script.js: {}
+    assets/js/jquery.cookie.js: {}
   dependencies:
     - core/jquery
     - core/drupal.ajax
     - core/drupal
     - core/drupalSettings
     - core/jquery.once
+
+skins-menu:
+  version: 1.x
+
+  js:
+    assets/includes/skins-menu/skins_menu.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
