@@ -1,4 +1,9 @@
-<div class="page">
+<div class="page" class="page" {{ page_css |raw }}>
+
+{% if page.show_skins_menu %}
+    {{ page.show_skins_menu |raw }}
+{% endif %}
+  
 <a name="Top" id="Top"></a>
 <header id="header" class="header" role="header">
   <div class="container">
